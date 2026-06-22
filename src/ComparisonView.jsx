@@ -1,6 +1,7 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
 import { documentLibrary } from './data';
 import { CheckCircle2, ArrowRightLeft } from 'lucide-react';
+import { diffWords } from 'diff';
 
 const ComparisonView = () => {
   const [targetDocId, setTargetDocId] = useState('TR24'); // TR24 or TR25
@@ -10,36 +11,68 @@ const ComparisonView = () => {
   const baseSections = documentLibrary[baseDocId]?.versions[version] || [];
   const targetSections = documentLibrary[targetDocId]?.versions[version] || [];
 
-  // Extract all long paragraphs from base document to match against
-  const baseParagraphs = useMemo(() => {
-    const texts = new Set();
-    baseSections.forEach(sec => {
-      sec.content.forEach(block => {
-        if (block.type === 'paragraph') {
-          if (block.en && block.en.length > 50) texts.add(block.en.trim());
-          if (block.id && block.id.length > 50) texts.add(block.id.trim());
-        }
-      });
-    });
-    return texts;
-  }, [baseSections]);
+  const getCorrespondingText = (sectionId, blockIndex, isBase, lang) => {
+    const docs = isBase ? targetSections : baseSections;
+    const sec = docs.find(s => s.id === sectionId);
+    if (!sec) return null;
+    const block = sec.content[blockIndex];
+    if (!block || block.type !== 'paragraph') return null;
+    return block[lang];
+  };
 
-  const targetParagraphs = useMemo(() => {
-    const texts = new Set();
-    targetSections.forEach(sec => {
-      sec.content.forEach(block => {
-        if (block.type === 'paragraph') {
-          if (block.en && block.en.length > 50) texts.add(block.en.trim());
-          if (block.id && block.id.length > 50) texts.add(block.id.trim());
-        }
-      });
-    });
-    return texts;
-  }, [targetSections]);
-
-  const renderTextWithHighlight = (text, isBase) => {
+  const renderDiffText = (text, correspondingText, isBase) => {
     if (!text) return null;
+    
+    // If no corresponding text, just render normally (no highlight)
+    if (!correspondingText || correspondingText.length < 5) {
+      return <span>{text}</span>;
+    }
+
+    const oldStr = isBase ? text : correspondingText;
+    const newStr = isBase ? correspondingText : text;
+    
+    const diffs = diffWords(oldStr, newStr);
+    
+    // Calculate similarity to avoid diffing completely different paragraphs
+    let sameChars = 0;
+    diffs.forEach(part => {
+      if (!part.added && !part.removed) {
+        sameChars += part.value.length;
+      }
+    });
+    
+    const similarity = sameChars / Math.max(oldStr.length, newStr.length);
+    
+    // If similarity is very low, just return normal text
+    if (similarity < 0.2) {
+      return <span>{text}</span>;
+    }
+
+    return diffs.map((part, index) => {
+      if (isBase) {
+        // We are rendering the OLD string. Show parts that are NOT added.
+        if (part.added) return null;
+        if (part.removed) {
+          return <span key={index} className="bg-red-200 text-red-900 px-1 rounded line-through decoration-red-500 mx-0.5">{part.value}</span>;
+        }
+        return <span key={index} className="bg-yellow-200 px-0.5 rounded">{part.value}</span>;
+      } else {
+        // We are rendering the NEW string. Show parts that are NOT removed.
+        if (part.removed) return null;
+        if (part.added) {
+          return <span key={index} className="bg-green-200 text-green-900 px-1 rounded font-medium mx-0.5">{part.value}</span>;
+        }
+        return <span key={index} className="bg-yellow-200 px-0.5 rounded">{part.value}</span>;
+      }
+    });
+  };
+
+  const renderTextWithDiff = (text, sectionId, blockIndex, isBase, lang) => {
+    if (!text) return null;
+    const correspondingText = getCorrespondingText(sectionId, blockIndex, isBase, lang);
     const lines = text.split('\n');
+    const correspondingLines = correspondingText ? correspondingText.split('\n') : [];
+
     return lines.map((line, idx) => {
       const trimmed = line.trim();
       if (!trimmed) return <br key={idx} />;
@@ -47,27 +80,23 @@ const ComparisonView = () => {
       const isBullet = trimmed.startsWith('•');
       const content = isBullet ? trimmed.substring(1).trim() : trimmed;
       
-      // Determine if this line exists in the OTHER document
-      const isMatch = content.length > 30 && (isBase ? targetParagraphs.has(trimmed) || targetParagraphs.has(line) : baseParagraphs.has(trimmed) || baseParagraphs.has(line));
-      
-      const highlightedContent = isMatch ? (
-        <span className="bg-yellow-200 px-1 rounded shadow-sm border border-yellow-300">{content}</span>
-      ) : (
-        <span>{content}</span>
-      );
+      const corrLine = correspondingLines[idx] || '';
+      const corrContent = corrLine.trim().startsWith('•') ? corrLine.trim().substring(1).trim() : corrLine.trim();
+
+      const renderedContent = renderDiffText(content, corrContent, isBase);
 
       if (isBullet) {
         return (
           <div key={idx} className="flex mb-2">
             <span className="mr-3 font-bold text-blue-400">•</span>
-            {highlightedContent}
+            <div>{renderedContent}</div>
           </div>
         );
       }
 
       return (
         <span key={idx} className="block mb-3 last:mb-0">
-          {highlightedContent}
+          {renderedContent}
         </span>
       );
     });
@@ -85,12 +114,12 @@ const ComparisonView = () => {
               return (
                 <div key={index} className="mb-6">
                   <div className="text-gray-900 font-serif text-sm leading-relaxed mb-2">
-                    {renderTextWithHighlight(block.en, isBase)}
+                    {renderTextWithDiff(block.en, section.id, index, isBase, 'en')}
                   </div>
                   {block.id && (
                     <div className="bg-blue-50 border-l-4 border-blue-500 p-3 rounded-r-md">
                       <div className="text-gray-700 font-serif text-sm leading-relaxed">
-                        {renderTextWithHighlight(block.id, isBase)}
+                        {renderTextWithDiff(block.id, section.id, index, isBase, 'id')}
                       </div>
                     </div>
                   )}
@@ -187,9 +216,10 @@ const ComparisonView = () => {
                 <strong>3. Proper Noun Preservation:</strong> Specific company entities (e.g., <em>Olam Group Limited</em>, <em>Olam Brands B.V.</em>), proprietary platforms (e.g., <em>AtSource</em>, <em>OFIS</em>), and financial institutions remain untranslated to maintain legal accuracy.
               </p>
               <p>
-                <strong>4. Boilerplate Identification:</strong> Identical clauses and sections (such as the Scope of the Report and the Disclaimer) were directly mirrored. 
-                <span className="bg-yellow-200 px-1 mx-1 rounded border border-yellow-300 text-yellow-900">Yellow highlights</span> 
-                below indicate identical sentences or paragraphs found in both documents.
+                <strong>4. Diff Analysis:</strong> We perform a word-by-word comparison between TR23 and the target document. 
+                <br/>• <span className="bg-yellow-200 px-1 rounded shadow-sm border border-yellow-300 text-yellow-900">Yellow</span> means the text is identical.
+                <br/>• <span className="bg-red-200 text-red-900 px-1 rounded line-through decoration-red-500">Red strike</span> means text was removed from TR23.
+                <br/>• <span className="bg-green-200 text-green-900 px-1 rounded font-medium">Green</span> means text was added or changed in the target.
               </p>
             </div>
           </div>
