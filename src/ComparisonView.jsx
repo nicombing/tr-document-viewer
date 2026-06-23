@@ -43,9 +43,9 @@ const ComparisonView = () => {
     
     const similarity = sameChars / Math.max(oldStr.length, newStr.length);
     
-    // If similarity is very low, just return normal text
-    if (similarity < 0.2) {
-      return <span>{text}</span>;
+    // If similarity is low but it exists, it means it's a rewritten paragraph with similar context
+    if (similarity < 0.4) {
+      return <span className="bg-pink-200 text-pink-900 px-1 rounded">{text}</span>;
     }
 
     return diffs.map((part, index) => {
@@ -249,6 +249,7 @@ const ComparisonView = () => {
                 <br/>• <span className="bg-yellow-200 px-1 rounded shadow-sm border border-yellow-300 text-yellow-900">Yellow</span> means the translation is identical.
                 <br/>• <span className="bg-red-200 text-red-900 px-1 rounded line-through decoration-red-500">Red strike</span> means text was removed from TR23.
                 <br/>• <span className="bg-green-200 text-green-900 px-1 rounded font-medium">Green</span> means text was added or changed in the target.
+                <br/>• <span className="bg-pink-200 text-pink-900 px-1 rounded font-medium">Pink</span> indicates the paragraph was significantly rewritten, but addresses the same context.
               </p>
             </div>
           </div>
