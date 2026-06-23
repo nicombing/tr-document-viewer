@@ -5,7 +5,7 @@ import ComparisonView from './ComparisonView';
 import { Menu } from 'lucide-react';
 
 function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth >= 1024);
   const [activeDocId, setActiveDocId] = useState('TR23');
   const [activeVersionId, setActiveVersionId] = useState('V1');
   const [viewMode, setViewMode] = useState('document'); // 'document' or 'comparison'
@@ -26,6 +26,17 @@ function App() {
         </span>
       </header>
 
+      {/* Desktop Menu Button (visible when sidebar is closed) */}
+      {!isSidebarOpen && (
+        <button
+          onClick={() => setIsSidebarOpen(true)}
+          className="hidden lg:flex fixed top-6 left-6 z-20 bg-white p-2 rounded-md shadow-md border border-gray-200 text-gray-600 hover:text-gray-900 focus:outline-none transition-all duration-300"
+          aria-label="Open menu"
+        >
+          <Menu size={24} />
+        </button>
+      )}
+
       <Sidebar 
         isOpen={isSidebarOpen} 
         setIsOpen={setIsSidebarOpen} 
@@ -37,11 +48,12 @@ function App() {
         setViewMode={setViewMode}
       />
       {viewMode === 'comparison' ? (
-        <ComparisonView />
+        <ComparisonView isSidebarOpen={isSidebarOpen} />
       ) : (
         <DocumentView 
           activeDocId={activeDocId}
           activeVersionId={activeVersionId}
+          isSidebarOpen={isSidebarOpen}
         />
       )}
     </div>

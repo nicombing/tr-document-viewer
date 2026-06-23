@@ -46,13 +46,13 @@ const Sidebar = ({ isOpen, setIsOpen, activeDocId, setActiveDocId, activeVersion
       {/* Sidebar */}
       <aside 
         className={`fixed top-0 left-0 z-30 h-full w-3/4 max-w-sm lg:w-80 bg-gray-50 border-r border-gray-200 shadow-lg lg:shadow-none transition-transform duration-300 ease-in-out flex flex-col ${
-          isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
+          isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
         <div className="flex items-center justify-between p-6 border-b border-gray-200 shrink-0 bg-white">
           <h2 className="font-sans text-lg font-bold text-gray-800">Transfer Pricing</h2>
           <button 
-            className="lg:hidden text-gray-500 hover:text-gray-800 focus:outline-none"
+            className="text-gray-500 hover:text-gray-800 focus:outline-none"
             onClick={() => setIsOpen(false)}
             aria-label="Close menu"
           >

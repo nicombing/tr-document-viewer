@@ -3,11 +3,11 @@ import DocumentSection from './DocumentSection';
 import { documentLibrary } from './data';
 import { FileQuestion } from 'lucide-react';
 
-const DocumentView = ({ activeDocId, activeVersionId }) => {
+const DocumentView = ({ activeDocId, activeVersionId, isSidebarOpen }) => {
   const sections = documentLibrary[activeDocId]?.versions[activeVersionId] || [];
 
   return (
-    <main className="w-full lg:w-[calc(100%-20rem)] lg:ml-80 p-6 lg:p-12 overflow-y-auto h-full bg-white relative">
+    <main className={`w-full p-6 lg:p-12 overflow-y-auto h-full bg-white relative transition-all duration-300 ${isSidebarOpen ? 'lg:w-[calc(100%-20rem)] lg:ml-80' : 'lg:w-full lg:ml-0'}`}>
       <div className="max-w-3xl mx-auto mt-16 lg:mt-0">
         <header className="mb-12">
           <h1 className="text-3xl lg:text-4xl font-sans font-bold text-gray-900 mb-4">

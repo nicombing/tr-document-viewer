@@ -3,7 +3,7 @@ import { documentLibrary } from './data';
 import { CheckCircle2, ArrowRightLeft } from 'lucide-react';
 import { diffWords } from 'diff';
 
-const ComparisonView = () => {
+const ComparisonView = ({ isSidebarOpen }) => {
   const [targetDocId, setTargetDocId] = useState('TR24'); // TR24 or TR25
   const baseDocId = 'TR23';
   const version = 'V1';
@@ -242,7 +242,7 @@ const ComparisonView = () => {
   };
 
   return (
-    <main className="w-full lg:w-[calc(100%-20rem)] lg:ml-80 p-6 lg:p-8 overflow-y-auto h-full bg-white relative">
+    <main className={`w-full p-6 lg:p-8 overflow-y-auto h-full bg-white relative transition-all duration-300 ${isSidebarOpen ? 'lg:w-[calc(100%-20rem)] lg:ml-80' : 'lg:w-full lg:ml-0'}`}>
       <div className="max-w-7xl mx-auto mt-16 lg:mt-0">
         <header className="mb-8">
           <h1 className="text-3xl font-sans font-bold text-gray-900 mb-2">
