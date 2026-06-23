@@ -28,14 +28,12 @@ const ComparisonView = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'center' });
       
-      // Add a temporary highlight effect to draw attention
-      element.classList.add('bg-indigo-100', 'border-indigo-500');
-      element.classList.remove('bg-blue-50', 'border-blue-500');
+      // Add a blinking highlight effect to draw attention
+      element.classList.add('animate-blink-bg');
       
       setTimeout(() => {
-        element.classList.add('bg-blue-50', 'border-blue-500');
-        element.classList.remove('bg-indigo-100', 'border-indigo-500');
-      }, 2000);
+        element.classList.remove('animate-blink-bg');
+      }, 5000);
     }
   };
 
