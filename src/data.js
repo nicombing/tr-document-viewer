@@ -11364,7 +11364,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Algeria",
-                    "id": "Algeria"
+                    "id": "Aljazair"
                   },
                   {
                     "en": "100",
@@ -11420,7 +11420,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Brazil",
-                    "id": "Brazil"
+                    "id": "Brasil"
                   },
                   {
                     "en": "100",
@@ -11434,7 +11434,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Brazil",
-                    "id": "Brazil"
+                    "id": "Brasil"
                   },
                   {
                     "en": "100",
@@ -11476,7 +11476,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Cambodia",
-                    "id": "Cambodia"
+                    "id": "Kamboja"
                   },
                   {
                     "en": "100",
@@ -11490,7 +11490,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Cameroon",
-                    "id": "Cameroon"
+                    "id": "Kamerun"
                   },
                   {
                     "en": "100",
@@ -11504,7 +11504,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Canada",
-                    "id": "Canada"
+                    "id": "Kanada"
                   },
                   {
                     "en": "100",
@@ -11518,7 +11518,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Canada",
-                    "id": "Canada"
+                    "id": "Kanada"
                   },
                   {
                     "en": "100",
@@ -11532,7 +11532,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Canada",
-                    "id": "Canada"
+                    "id": "Kanada"
                   },
                   {
                     "en": "100",
@@ -11546,7 +11546,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Canada",
-                    "id": "Canada"
+                    "id": "Kanada"
                   },
                   {
                     "en": "100",
@@ -11560,7 +11560,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "China",
-                    "id": "China"
+                    "id": "Tiongkok"
                   },
                   {
                     "en": "80",
@@ -11574,7 +11574,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "China",
-                    "id": "China"
+                    "id": "Tiongkok"
                   },
                   {
                     "en": "100",
@@ -11588,7 +11588,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "China",
-                    "id": "China"
+                    "id": "Tiongkok"
                   },
                   {
                     "en": "100",
@@ -11602,7 +11602,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "China",
-                    "id": "China"
+                    "id": "Tiongkok"
                   },
                   {
                     "en": "100",
@@ -11616,7 +11616,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Colombia",
-                    "id": "Colombia"
+                    "id": "Kolombia"
                   },
                   {
                     "en": "100",
@@ -11630,7 +11630,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "The Democratic Republic Of the Congo",
-                    "id": "The Democratic Republic Of the Congo"
+                    "id": "Republik Demokratik Kongo"
                   },
                   {
                     "en": "100",
@@ -11644,7 +11644,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Ecuador",
-                    "id": "Ecuador"
+                    "id": "Ekuador"
                   },
                   {
                     "en": "100",
@@ -11658,7 +11658,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Egypt",
-                    "id": "Egypt"
+                    "id": "Mesir"
                   },
                   {
                     "en": "99.995",
@@ -11672,7 +11672,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Egypt",
-                    "id": "Egypt"
+                    "id": "Mesir"
                   },
                   {
                     "en": "100",
@@ -11700,7 +11700,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Germany",
-                    "id": "Germany"
+                    "id": "Jerman"
                   },
                   {
                     "en": "100",
@@ -11714,7 +11714,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Germany",
-                    "id": "Germany"
+                    "id": "Jerman"
                   },
                   {
                     "en": "100",
@@ -11728,7 +11728,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Germany",
-                    "id": "Germany"
+                    "id": "Jerman"
                   },
                   {
                     "en": "100",
@@ -11742,7 +11742,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Germany",
-                    "id": "Germany"
+                    "id": "Jerman"
                   },
                   {
                     "en": "100",
@@ -11924,7 +11924,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Italy",
-                    "id": "Italy"
+                    "id": "Italia"
                   },
                   {
                     "en": "100",
@@ -11938,7 +11938,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Italy",
-                    "id": "Italy"
+                    "id": "Italia"
                   },
                   {
                     "en": "70",
@@ -11952,7 +11952,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Ivory Coast",
-                    "id": "Ivory Coast"
+                    "id": "Pantai Gading"
                   },
                   {
                     "en": "100",
@@ -11966,7 +11966,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Ivory Coast",
-                    "id": "Ivory Coast"
+                    "id": "Pantai Gading"
                   },
                   {
                     "en": "100",
@@ -11980,7 +11980,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Ivory Coast",
-                    "id": "Ivory Coast"
+                    "id": "Pantai Gading"
                   },
                   {
                     "en": "100",
@@ -11994,7 +11994,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Lao People's Democratic Republic",
-                    "id": "Lao People's Democratic Republic"
+                    "id": "Republik Demokratik Rakyat Laos"
                   },
                   {
                     "en": "100",
@@ -12064,7 +12064,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Mexico",
-                    "id": "Mexico"
+                    "id": "Meksiko"
                   },
                   {
                     "en": "100",
@@ -12078,7 +12078,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12092,7 +12092,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12106,7 +12106,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12120,7 +12120,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12134,7 +12134,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12148,7 +12148,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12162,7 +12162,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12176,7 +12176,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12190,7 +12190,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12204,7 +12204,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Netherlands",
-                    "id": "Netherlands"
+                    "id": "Belanda"
                   },
                   {
                     "en": "100",
@@ -12218,7 +12218,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "New Zealand",
-                    "id": "New Zealand"
+                    "id": "Selandia Baru"
                   },
                   {
                     "en": "100",
@@ -12232,7 +12232,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Nicaragua",
-                    "id": "Nicaragua"
+                    "id": "Nikaragua"
                   },
                   {
                     "en": "100",
@@ -12260,7 +12260,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Papua New Guinea",
-                    "id": "Papua New Guinea"
+                    "id": "Papua Nugini"
                   },
                   {
                     "en": "100",
@@ -12288,7 +12288,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Philippines",
-                    "id": "Philippines"
+                    "id": "Filipina"
                   },
                   {
                     "en": "100",
@@ -12302,7 +12302,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Poland",
-                    "id": "Poland"
+                    "id": "Polandia"
                   },
                   {
                     "en": "100",
@@ -12316,7 +12316,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Singapore",
-                    "id": "Singapore"
+                    "id": "Singapura"
                   },
                   {
                     "en": "100",
@@ -12330,7 +12330,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Singapore",
-                    "id": "Singapore"
+                    "id": "Singapura"
                   },
                   {
                     "en": "100",
@@ -12344,7 +12344,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Singapore",
-                    "id": "Singapore"
+                    "id": "Singapura"
                   },
                   {
                     "en": "100",
@@ -12358,7 +12358,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Singapore",
-                    "id": "Singapore"
+                    "id": "Singapura"
                   },
                   {
                     "en": "100",
@@ -12372,7 +12372,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Singapore",
-                    "id": "Singapore"
+                    "id": "Singapura"
                   },
                   {
                     "en": "100",
@@ -12386,7 +12386,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Singapore",
-                    "id": "Singapore"
+                    "id": "Singapura"
                   },
                   {
                     "en": "100",
@@ -12400,7 +12400,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Spain",
-                    "id": "Spain"
+                    "id": "Spanyol"
                   },
                   {
                     "en": "100",
@@ -12414,7 +12414,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Spain",
-                    "id": "Spain"
+                    "id": "Spanyol"
                   },
                   {
                     "en": "100",
@@ -12428,7 +12428,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Switzerland",
-                    "id": "Switzerland"
+                    "id": "Swiss"
                   },
                   {
                     "en": "100",
@@ -12442,7 +12442,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Switzerland",
-                    "id": "Switzerland"
+                    "id": "Swiss"
                   },
                   {
                     "en": "100",
@@ -12470,7 +12470,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Timor-Leste",
-                    "id": "Timor-Leste"
+                    "id": "Timor Leste"
                   },
                   {
                     "en": "100",
@@ -12484,7 +12484,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Turkey",
-                    "id": "Turkey"
+                    "id": "Turki"
                   },
                   {
                     "en": "100",
@@ -12498,7 +12498,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Turkey",
-                    "id": "Turkey"
+                    "id": "Turki"
                   },
                   {
                     "en": "100",
@@ -12526,7 +12526,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Ukraine",
-                    "id": "Ukraine"
+                    "id": "Ukraina"
                   },
                   {
                     "en": "100",
@@ -12540,7 +12540,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Arab Emirates",
-                    "id": "United Arab Emirates"
+                    "id": "Uni Emirat Arab"
                   },
                   {
                     "en": "100",
@@ -12554,7 +12554,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Arab Emirates",
-                    "id": "United Arab Emirates"
+                    "id": "Uni Emirat Arab"
                   },
                   {
                     "en": "100",
@@ -12568,7 +12568,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Kingdom",
-                    "id": "United Kingdom"
+                    "id": "Inggris Raya"
                   },
                   {
                     "en": "100",
@@ -12582,7 +12582,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Kingdom",
-                    "id": "United Kingdom"
+                    "id": "Inggris Raya"
                   },
                   {
                     "en": "100",
@@ -12596,7 +12596,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Kingdom",
-                    "id": "United Kingdom"
+                    "id": "Inggris Raya"
                   },
                   {
                     "en": "100",
@@ -12610,7 +12610,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Kingdom",
-                    "id": "United Kingdom"
+                    "id": "Inggris Raya"
                   },
                   {
                     "en": "100",
@@ -12624,7 +12624,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Kingdom",
-                    "id": "United Kingdom"
+                    "id": "Inggris Raya"
                   },
                   {
                     "en": "100",
@@ -12638,7 +12638,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Kingdom",
-                    "id": "United Kingdom"
+                    "id": "Inggris Raya"
                   },
                   {
                     "en": "100",
@@ -12652,7 +12652,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Kingdom",
-                    "id": "United Kingdom"
+                    "id": "Inggris Raya"
                   },
                   {
                     "en": "100",
@@ -12666,7 +12666,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United Kingdom",
-                    "id": "United Kingdom"
+                    "id": "Inggris Raya"
                   },
                   {
                     "en": "100",
@@ -12680,7 +12680,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12694,7 +12694,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12708,7 +12708,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12722,7 +12722,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12736,7 +12736,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12750,7 +12750,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12764,7 +12764,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12778,7 +12778,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12792,7 +12792,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12806,7 +12806,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12820,7 +12820,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12834,7 +12834,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12848,7 +12848,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12862,7 +12862,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12876,7 +12876,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12890,7 +12890,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12904,7 +12904,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12918,7 +12918,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -12932,7 +12932,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "100",
@@ -13064,7 +13064,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Singapore",
-                    "id": "Singapore"
+                    "id": "Singapura"
                   },
                   {
                     "en": "(a), (b)",
@@ -13082,7 +13082,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Singapore",
-                    "id": "Singapore"
+                    "id": "Singapura"
                   },
                   {
                     "en": "(d)",
@@ -13100,7 +13100,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Singapore",
-                    "id": "Singapore"
+                    "id": "Singapura"
                   },
                   {
                     "en": "(a), (b)",
@@ -13154,7 +13154,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Ivory Coast",
-                    "id": "Ivory Coast"
+                    "id": "Pantai Gading"
                   },
                   {
                     "en": "(a)",
@@ -13172,7 +13172,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Ivory Coast",
-                    "id": "Ivory Coast"
+                    "id": "Pantai Gading"
                   },
                   {
                     "en": "(a)",
@@ -13190,7 +13190,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Ivory Coast",
-                    "id": "Ivory Coast"
+                    "id": "Pantai Gading"
                   },
                   {
                     "en": "(a)",
@@ -13298,7 +13298,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Brazil",
-                    "id": "Brazil"
+                    "id": "Brasil"
                   },
                   {
                     "en": "(a)",
@@ -13316,7 +13316,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "United States",
-                    "id": "United States"
+                    "id": "Amerika Serikat"
                   },
                   {
                     "en": "(b), (d)",
@@ -13352,7 +13352,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "New Zealand",
-                    "id": "New Zealand"
+                    "id": "Selandia Baru"
                   },
                   {
                     "en": "(a)",
@@ -13370,7 +13370,7 @@ export const documentLibrary = {
                   },
                   {
                     "en": "Spain",
-                    "id": "Spain"
+                    "id": "Spanyol"
                   },
                   {
                     "en": "(a)",
@@ -15055,7 +15055,7 @@ export const documentLibrary = {
                     "en": "EURL Agri Commodities"
                   },
                   {
-                    "en": "Algeria"
+                    "en": "Aljazair"
                   },
                   {
                     "en": "100"
@@ -15099,7 +15099,7 @@ export const documentLibrary = {
                     "en": "Olam Agricola Ltda"
                   },
                   {
-                    "en": "Brazil"
+                    "en": "Brasil"
                   },
                   {
                     "en": "100"
@@ -15110,7 +15110,7 @@ export const documentLibrary = {
                     "en": "Olam Armazens Gerais Ltda"
                   },
                   {
-                    "en": "Brazil"
+                    "en": "Brasil"
                   },
                   {
                     "en": "100"
@@ -15143,7 +15143,7 @@ export const documentLibrary = {
                     "en": "Olam Outspan (Cambodia) Co., Ltd."
                   },
                   {
-                    "en": "Cambodia"
+                    "en": "Kamboja"
                   },
                   {
                     "en": "100"
@@ -15154,7 +15154,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients Cameroon S.A."
                   },
                   {
-                    "en": "Cameroon"
+                    "en": "Kamerun"
                   },
                   {
                     "en": "100"
@@ -15165,7 +15165,7 @@ export const documentLibrary = {
                     "en": "Club Coffee Company Inc."
                   },
                   {
-                    "en": "Canada"
+                    "en": "Kanada"
                   },
                   {
                     "en": "100"
@@ -15176,7 +15176,7 @@ export const documentLibrary = {
                     "en": "Club Coffee L.P."
                   },
                   {
-                    "en": "Canada"
+                    "en": "Kanada"
                   },
                   {
                     "en": "100"
@@ -15187,7 +15187,7 @@ export const documentLibrary = {
                     "en": "Northern Lights Research Inc."
                   },
                   {
-                    "en": "Canada"
+                    "en": "Kanada"
                   },
                   {
                     "en": "100"
@@ -15198,7 +15198,7 @@ export const documentLibrary = {
                     "en": "Olam Canada Inc."
                   },
                   {
-                    "en": "Canada"
+                    "en": "Kanada"
                   },
                   {
                     "en": "100"
@@ -15209,7 +15209,7 @@ export const documentLibrary = {
                     "en": "OFI Squirrel (Wuhu) Co Ltd"
                   },
                   {
-                    "en": "China"
+                    "en": "Tiongkok"
                   },
                   {
                     "en": "80"
@@ -15220,7 +15220,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients Shanghai Limited"
                   },
                   {
-                    "en": "China"
+                    "en": "Tiongkok"
                   },
                   {
                     "en": "100"
@@ -15231,7 +15231,7 @@ export const documentLibrary = {
                     "en": "Shandong Key Foods Co. Ltd"
                   },
                   {
-                    "en": "China"
+                    "en": "Tiongkok"
                   },
                   {
                     "en": "100"
@@ -15242,7 +15242,7 @@ export const documentLibrary = {
                     "en": "Ofi (Wuhu) Co.,Ltd"
                   },
                   {
-                    "en": "China"
+                    "en": "Tiongkok"
                   },
                   {
                     "en": "100"
@@ -15253,7 +15253,7 @@ export const documentLibrary = {
                     "en": "Olam Agro Colombia SAS"
                   },
                   {
-                    "en": "Colombia"
+                    "en": "Kolombia"
                   },
                   {
                     "en": "100"
@@ -15264,7 +15264,7 @@ export const documentLibrary = {
                     "en": "Virunga Coffee SARL"
                   },
                   {
-                    "en": "The Democratic Republic Of the Congo"
+                    "en": "Republik Demokratik Kongo"
                   },
                   {
                     "en": "100"
@@ -15275,7 +15275,7 @@ export const documentLibrary = {
                     "en": "Olam Ecuador SA"
                   },
                   {
-                    "en": "Ecuador"
+                    "en": "Ekuador"
                   },
                   {
                     "en": "100"
@@ -15286,7 +15286,7 @@ export const documentLibrary = {
                     "en": "Agri Commodities L.L.C."
                   },
                   {
-                    "en": "Egypt"
+                    "en": "Mesir"
                   },
                   {
                     "en": "99.995"
@@ -15297,7 +15297,7 @@ export const documentLibrary = {
                     "en": "Dehydro Foods S.A.E."
                   },
                   {
-                    "en": "Egypt"
+                    "en": "Mesir"
                   },
                   {
                     "en": "100"
@@ -15319,7 +15319,7 @@ export const documentLibrary = {
                     "en": "Marsch Importhandels GmbH"
                   },
                   {
-                    "en": "Germany"
+                    "en": "Jerman"
                   },
                   {
                     "en": "100"
@@ -15330,7 +15330,7 @@ export const documentLibrary = {
                     "en": "Marsch International GmbH"
                   },
                   {
-                    "en": "Germany"
+                    "en": "Jerman"
                   },
                   {
                     "en": "100"
@@ -15341,7 +15341,7 @@ export const documentLibrary = {
                     "en": "Olam Cocoa Deutschland GmbH"
                   },
                   {
-                    "en": "Germany"
+                    "en": "Jerman"
                   },
                   {
                     "en": "100"
@@ -15352,7 +15352,7 @@ export const documentLibrary = {
                     "en": "Olam Deutschland GmbH"
                   },
                   {
-                    "en": "Germany"
+                    "en": "Jerman"
                   },
                   {
                     "en": "100"
@@ -15495,7 +15495,7 @@ export const documentLibrary = {
                     "en": "Olam Italia S.R.L"
                   },
                   {
-                    "en": "Italy"
+                    "en": "Italia"
                   },
                   {
                     "en": "100"
@@ -15506,7 +15506,7 @@ export const documentLibrary = {
                     "en": "Blenda SRL"
                   },
                   {
-                    "en": "Italy"
+                    "en": "Italia"
                   },
                   {
                     "en": "70"
@@ -15517,7 +15517,7 @@ export const documentLibrary = {
                     "en": "Olam Cocoa Processing Cote d Ivoire"
                   },
                   {
-                    "en": "Ivory Coast"
+                    "en": "Pantai Gading"
                   },
                   {
                     "en": "100"
@@ -15528,7 +15528,7 @@ export const documentLibrary = {
                     "en": "Olam Ivoire Sarl"
                   },
                   {
-                    "en": "Ivory Coast"
+                    "en": "Pantai Gading"
                   },
                   {
                     "en": "100"
@@ -15539,7 +15539,7 @@ export const documentLibrary = {
                     "en": "Outspan Ivoire"
                   },
                   {
-                    "en": "Ivory Coast"
+                    "en": "Pantai Gading"
                   },
                   {
                     "en": "100"
@@ -15550,7 +15550,7 @@ export const documentLibrary = {
                     "en": "Outspan Bolovens Limited"
                   },
                   {
-                    "en": "Lao People's Democratic Republic"
+                    "en": "Republik Demokratik Rakyat Laos"
                   },
                   {
                     "en": "100"
@@ -15605,7 +15605,7 @@ export const documentLibrary = {
                     "en": "Olam Agro Mexico S.A. de C.V."
                   },
                   {
-                    "en": "Mexico"
+                    "en": "Meksiko"
                   },
                   {
                     "en": "100"
@@ -15616,7 +15616,7 @@ export const documentLibrary = {
                     "en": "Olam Brands B.V."
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15627,7 +15627,7 @@ export const documentLibrary = {
                     "en": "Olam Cocoa B.V."
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15638,7 +15638,7 @@ export const documentLibrary = {
                     "en": "Olam Cocoa International B.V."
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15649,7 +15649,7 @@ export const documentLibrary = {
                     "en": "Olam Europe B.V"
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15660,7 +15660,7 @@ export const documentLibrary = {
                     "en": "Olam Holding BV"
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15671,7 +15671,7 @@ export const documentLibrary = {
                     "en": "Olam Services B.V"
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15682,7 +15682,7 @@ export const documentLibrary = {
                     "en": "ofi Holdings BV"
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15693,7 +15693,7 @@ export const documentLibrary = {
                     "en": "ofi Brands BV"
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15704,7 +15704,7 @@ export const documentLibrary = {
                     "en": "ofi AtSource BV"
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15715,7 +15715,7 @@ export const documentLibrary = {
                     "en": "Olam Treasury B.V."
                   },
                   {
-                    "en": "Netherlands"
+                    "en": "Belanda"
                   },
                   {
                     "en": "100"
@@ -15726,7 +15726,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients New Zealand Limited"
                   },
                   {
-                    "en": "New Zealand"
+                    "en": "Selandia Baru"
                   },
                   {
                     "en": "100"
@@ -15737,7 +15737,7 @@ export const documentLibrary = {
                     "en": "Olam Nicaragua S.A."
                   },
                   {
-                    "en": "Nicaragua"
+                    "en": "Nikaragua"
                   },
                   {
                     "en": "100"
@@ -15759,7 +15759,7 @@ export const documentLibrary = {
                     "en": "Outspan PNG Limited"
                   },
                   {
-                    "en": "Papua New Guinea"
+                    "en": "Papua Nugini"
                   },
                   {
                     "en": "100"
@@ -15781,7 +15781,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients Philippines Inc"
                   },
                   {
-                    "en": "Philippines"
+                    "en": "Filipina"
                   },
                   {
                     "en": "100"
@@ -15792,7 +15792,7 @@ export const documentLibrary = {
                     "en": "Olam Polska Sp. Z.o.o."
                   },
                   {
-                    "en": "Poland"
+                    "en": "Polandia"
                   },
                   {
                     "en": "100"
@@ -15803,7 +15803,7 @@ export const documentLibrary = {
                     "en": "Agrohub Commodities Pte Ltd"
                   },
                   {
-                    "en": "Singapore"
+                    "en": "Singapura"
                   },
                   {
                     "en": "100"
@@ -15814,7 +15814,7 @@ export const documentLibrary = {
                     "en": "Olam Cocoa Pte Ltd"
                   },
                   {
-                    "en": "Singapore"
+                    "en": "Singapura"
                   },
                   {
                     "en": "100"
@@ -15825,7 +15825,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients Vietnam Pte. Ltd."
                   },
                   {
-                    "en": "Singapore"
+                    "en": "Singapura"
                   },
                   {
                     "en": "100"
@@ -15836,7 +15836,7 @@ export const documentLibrary = {
                     "en": "Olam International Limited"
                   },
                   {
-                    "en": "Singapore"
+                    "en": "Singapura"
                   },
                   {
                     "en": "100"
@@ -15847,7 +15847,7 @@ export const documentLibrary = {
                     "en": "Olam Treasury Pte Ltd"
                   },
                   {
-                    "en": "Singapore"
+                    "en": "Singapura"
                   },
                   {
                     "en": "100"
@@ -15858,7 +15858,7 @@ export const documentLibrary = {
                     "en": "YTS Holdings Pte Ltd"
                   },
                   {
-                    "en": "Singapore"
+                    "en": "Singapura"
                   },
                   {
                     "en": "100"
@@ -15869,7 +15869,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients Spain S.L."
                   },
                   {
-                    "en": "Spain"
+                    "en": "Spanyol"
                   },
                   {
                     "en": "100"
@@ -15880,7 +15880,7 @@ export const documentLibrary = {
                     "en": "Seda Outspan Iberia S.L (Sociedad Unipersonal)"
                   },
                   {
-                    "en": "Spain"
+                    "en": "Spanyol"
                   },
                   {
                     "en": "100"
@@ -15891,7 +15891,7 @@ export const documentLibrary = {
                     "en": "Olam Suisse Sarl"
                   },
                   {
-                    "en": "Switzerland"
+                    "en": "Swiss"
                   },
                   {
                     "en": "100"
@@ -15902,7 +15902,7 @@ export const documentLibrary = {
                     "en": "Schluter SA"
                   },
                   {
-                    "en": "Switzerland"
+                    "en": "Swiss"
                   },
                   {
                     "en": "100"
@@ -15924,7 +15924,7 @@ export const documentLibrary = {
                     "en": "Outspan Agro Timor Unipessoal LDA"
                   },
                   {
-                    "en": "Timor-Leste"
+                    "en": "Timor Leste"
                   },
                   {
                     "en": "100"
@@ -15935,7 +15935,7 @@ export const documentLibrary = {
                     "en": "ofi Tarim Sanayi ve Ticaret A.Ş (f.k.a. Progıda Tarım Űrűnleri Sanayi ve Ticaret A.Ş.)"
                   },
                   {
-                    "en": "Turkey"
+                    "en": "Turki"
                   },
                   {
                     "en": "100"
@@ -15946,7 +15946,7 @@ export const documentLibrary = {
                     "en": "Olam Tarim Urunleri Yem Maddeleri Sanayi ve Ticaret Limited Sirketi"
                   },
                   {
-                    "en": "Turkey"
+                    "en": "Turki"
                   },
                   {
                     "en": "100"
@@ -15968,7 +15968,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients Ukraine LLC"
                   },
                   {
-                    "en": "Ukraine"
+                    "en": "Ukraina"
                   },
                   {
                     "en": "100"
@@ -15979,7 +15979,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients DMCC"
                   },
                   {
-                    "en": "United Arab Emirates"
+                    "en": "Uni Emirat Arab"
                   },
                   {
                     "en": "100"
@@ -15990,7 +15990,7 @@ export const documentLibrary = {
                     "en": "Olam Middle East (L.L.C.)"
                   },
                   {
-                    "en": "United Arab Emirates"
+                    "en": "Uni Emirat Arab"
                   },
                   {
                     "en": "100"
@@ -16001,7 +16001,7 @@ export const documentLibrary = {
                     "en": "Covoya Ltd (f.k.a.Olam Specialty Coffee Europe)"
                   },
                   {
-                    "en": "United Kingdom"
+                    "en": "Inggris Raya"
                   },
                   {
                     "en": "100"
@@ -16012,7 +16012,7 @@ export const documentLibrary = {
                     "en": "Marsch Import Ltd"
                   },
                   {
-                    "en": "United Kingdom"
+                    "en": "Inggris Raya"
                   },
                   {
                     "en": "100"
@@ -16023,7 +16023,7 @@ export const documentLibrary = {
                     "en": "OFI Group Limited"
                   },
                   {
-                    "en": "United Kingdom"
+                    "en": "Inggris Raya"
                   },
                   {
                     "en": "100"
@@ -16034,7 +16034,7 @@ export const documentLibrary = {
                     "en": "Olam Europe Limited"
                   },
                   {
-                    "en": "United Kingdom"
+                    "en": "Inggris Raya"
                   },
                   {
                     "en": "100"
@@ -16045,7 +16045,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients UK Limited"
                   },
                   {
-                    "en": "United Kingdom"
+                    "en": "Inggris Raya"
                   },
                   {
                     "en": "100"
@@ -16056,7 +16056,7 @@ export const documentLibrary = {
                     "en": "Olam International UK Limited"
                   },
                   {
-                    "en": "United Kingdom"
+                    "en": "Inggris Raya"
                   },
                   {
                     "en": "100"
@@ -16067,7 +16067,7 @@ export const documentLibrary = {
                     "en": "Olam Storage & Distribution Limited"
                   },
                   {
-                    "en": "United Kingdom"
+                    "en": "Inggris Raya"
                   },
                   {
                     "en": "100"
@@ -16078,7 +16078,7 @@ export const documentLibrary = {
                     "en": "OFI Group Nominees Limited"
                   },
                   {
-                    "en": "United Kingdom"
+                    "en": "Inggris Raya"
                   },
                   {
                     "en": "100"
@@ -16089,7 +16089,7 @@ export const documentLibrary = {
                     "en": "Gel Spice Co, Inc"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16100,7 +16100,7 @@ export const documentLibrary = {
                     "en": "Gel Spice Co, LLC"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16111,7 +16111,7 @@ export const documentLibrary = {
                     "en": "Hughson Nut, Inc"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16122,7 +16122,7 @@ export const documentLibrary = {
                     "en": "Olam Americas, LLC."
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16133,7 +16133,7 @@ export const documentLibrary = {
                     "en": "Olam Chile Peppers, LLC"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16144,7 +16144,7 @@ export const documentLibrary = {
                     "en": "Olam Farming, Inc."
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16155,7 +16155,7 @@ export const documentLibrary = {
                     "en": "Olam Holdings Inc."
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16166,7 +16166,7 @@ export const documentLibrary = {
                     "en": "Olam OT Holdings, LLC"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16177,7 +16177,7 @@ export const documentLibrary = {
                     "en": "Olam Peanut Shelling Company Inc"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16188,7 +16188,7 @@ export const documentLibrary = {
                     "en": "Olam US Holdings, Inc."
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16199,7 +16199,7 @@ export const documentLibrary = {
                     "en": "Olam West Coast Inc."
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16210,7 +16210,7 @@ export const documentLibrary = {
                     "en": "Olde Thompson, LLC"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16221,7 +16221,7 @@ export const documentLibrary = {
                     "en": "OT Acquisition Co. LLC"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16232,7 +16232,7 @@ export const documentLibrary = {
                     "en": "OT Borrower LLC"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16243,7 +16243,7 @@ export const documentLibrary = {
                     "en": "OT Guarantor LLC"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16254,7 +16254,7 @@ export const documentLibrary = {
                     "en": "OT Holdings Corp."
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16265,7 +16265,7 @@ export const documentLibrary = {
                     "en": "OT Intermediate LLC"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16276,7 +16276,7 @@ export const documentLibrary = {
                     "en": "Seabrook Enterprises Inc."
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16287,7 +16287,7 @@ export const documentLibrary = {
                     "en": "Universal Blanchers, L.L.C."
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "100"
@@ -16393,7 +16393,7 @@ export const documentLibrary = {
                     "en": "Olam International Limited"
                   },
                   {
-                    "en": "Singapore"
+                    "en": "Singapura"
                   },
                   {
                     "en": "(a), (b)"
@@ -16407,7 +16407,7 @@ export const documentLibrary = {
                     "en": "Olam Treasury Pte. Ltd"
                   },
                   {
-                    "en": "Singapore"
+                    "en": "Singapura"
                   },
                   {
                     "en": "(d)"
@@ -16421,7 +16421,7 @@ export const documentLibrary = {
                     "en": "Olam Cocoa Pte. Ltd"
                   },
                   {
-                    "en": "Singapore"
+                    "en": "Singapura"
                   },
                   {
                     "en": "(a), (b)"
@@ -16463,7 +16463,7 @@ export const documentLibrary = {
                     "en": "Olam Ivoire SA"
                   },
                   {
-                    "en": "Ivory Coast"
+                    "en": "Pantai Gading"
                   },
                   {
                     "en": "(a)"
@@ -16477,7 +16477,7 @@ export const documentLibrary = {
                     "en": "Outspan Ivoire SA"
                   },
                   {
-                    "en": "Ivory Coast"
+                    "en": "Pantai Gading"
                   },
                   {
                     "en": "(a)"
@@ -16491,7 +16491,7 @@ export const documentLibrary = {
                     "en": "Olam Cocoa Processing Cote d’ Ivoire"
                   },
                   {
-                    "en": "Ivory Coast"
+                    "en": "Pantai Gading"
                   },
                   {
                     "en": "(a)"
@@ -16575,7 +16575,7 @@ export const documentLibrary = {
                     "en": "Olam Agricola Ltda."
                   },
                   {
-                    "en": "Brazil"
+                    "en": "Brasil"
                   },
                   {
                     "en": "(a)"
@@ -16589,7 +16589,7 @@ export const documentLibrary = {
                     "en": "Olam Holdings Inc"
                   },
                   {
-                    "en": "United States"
+                    "en": "Amerika Serikat"
                   },
                   {
                     "en": "(b), (d)"
@@ -16617,7 +16617,7 @@ export const documentLibrary = {
                     "en": "Olam Food Ingredients New Zealand Limited"
                   },
                   {
-                    "en": "New Zealand"
+                    "en": "Selandia Baru"
                   },
                   {
                     "en": "(a)"
@@ -16631,7 +16631,7 @@ export const documentLibrary = {
                     "en": "Seda Outspan Iberia S.L."
                   },
                   {
-                    "en": "Spain"
+                    "en": "Spanyol"
                   },
                   {
                     "en": "(a)"
