@@ -5636,7 +5636,7 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " Master File content requirements",
-              "id": " Persyaratan konten Master File"
+              "id": " Persyaratan konten Dokumen Induk"
             },
             {
               "type": "paragraph",
@@ -5671,12 +5671,12 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " Products / Business segments / Markets",
-              "id": " Produk / Segmen bisnis / Pasar"
+              "id": " Produk / Segmen Usaha / Pasar"
             },
             {
               "type": "paragraph",
               "en": " Important drivers of business profit",
-              "id": " Penggerak penting laba bisnis"
+              "id": " Penggerak penting keuntungan bisnis"
             },
             {
               "type": "paragraph",
@@ -5701,7 +5701,7 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " R&D organisation",
-              "id": " Organisasi Litbang"
+              "id": " Organisasi Penelitian dan Pengembangan (R&D)"
             },
             {
               "type": "paragraph",
@@ -5711,12 +5711,12 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " Important agreements and transfer pricing policy",
-              "id": " Perjanjian penting dan kebijakan penentuan harga transfer"
+              "id": " Perjanjian penting dan kebijakan harga transfer"
             },
             {
               "type": "paragraph",
               "en": " Important transfers of intangibles",
-              "id": " Transfer penting dari aktiva tidak berwujud"
+              "id": " Pengalihan penting atas aktiva tidak berwujud"
             },
             {
               "type": "paragraph",
@@ -5736,12 +5736,12 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " Central financing functions",
-              "id": " Fungsi pembiayaan terpusat"
+              "id": " Fungsi pembiayaan sentral"
             },
             {
               "type": "paragraph",
               "en": " Intercompany financing – transfer pricing policy",
-              "id": " Pembiayaan antar perusahaan – kebijakan penentuan harga transfer"
+              "id": " Pembiayaan antar perusahaan – kebijakan harga transfer"
             },
             {
               "type": "paragraph",
@@ -10295,7 +10295,7 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Persyaratan konten Master File"
+              "en": " Persyaratan konten Dokumen Induk"
             },
             {
               "type": "paragraph",
@@ -10323,11 +10323,11 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Produk / Segmen bisnis / Pasar"
+              "en": " Produk / Segmen Usaha / Pasar"
             },
             {
               "type": "paragraph",
-              "en": " Penggerak penting laba bisnis"
+              "en": " Penggerak penting keuntungan bisnis"
             },
             {
               "type": "paragraph",
@@ -10347,7 +10347,7 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Organisasi Litbang"
+              "en": " Organisasi Penelitian dan Pengembangan (R&D)"
             },
             {
               "type": "paragraph",
@@ -10355,11 +10355,11 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Perjanjian penting dan kebijakan penentuan harga transfer"
+              "en": " Perjanjian penting dan kebijakan harga transfer"
             },
             {
               "type": "paragraph",
-              "en": " Transfer penting dari aktiva tidak berwujud"
+              "en": " Pengalihan penting atas aktiva tidak berwujud"
             },
             {
               "type": "paragraph",
@@ -10375,11 +10375,11 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Fungsi pembiayaan terpusat"
+              "en": " Fungsi pembiayaan sentral"
             },
             {
               "type": "paragraph",
-              "en": " Pembiayaan antar perusahaan – kebijakan penentuan harga transfer"
+              "en": " Pembiayaan antar perusahaan – kebijakan harga transfer"
             },
             {
               "type": "paragraph",
@@ -25060,7 +25060,7 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " Master File content requirements",
-              "id": " Persyaratan konten Master File"
+              "id": " Persyaratan konten Dokumen Induk"
             },
             {
               "type": "paragraph",
@@ -25095,12 +25095,12 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " Products / Business segments / Markets",
-              "id": " Produk / Segmen bisnis / Pasar"
+              "id": " Produk / Segmen Usaha / Pasar"
             },
             {
               "type": "paragraph",
               "en": " Important drivers of business profit",
-              "id": " Penggerak penting laba bisnis"
+              "id": " Penggerak penting keuntungan bisnis"
             },
             {
               "type": "paragraph",
@@ -25125,7 +25125,7 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " R&D organisation",
-              "id": " Organisasi Litbang"
+              "id": " Organisasi Penelitian dan Pengembangan (R&D)"
             },
             {
               "type": "paragraph",
@@ -25135,12 +25135,12 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " Important agreements and transfer pricing policy",
-              "id": " Perjanjian penting dan kebijakan penentuan harga transfer"
+              "id": " Perjanjian penting dan kebijakan harga transfer"
             },
             {
               "type": "paragraph",
               "en": " Important transfers of intangibles",
-              "id": " Transfer penting dari aktiva tidak berwujud"
+              "id": " Pengalihan penting atas aktiva tidak berwujud"
             },
             {
               "type": "paragraph",
@@ -25160,12 +25160,12 @@ export const documentLibrary = {
             {
               "type": "paragraph",
               "en": " Central financing functions",
-              "id": " Fungsi pembiayaan terpusat"
+              "id": " Fungsi pembiayaan sentral"
             },
             {
               "type": "paragraph",
               "en": " Intercompany financing – transfer pricing policy",
-              "id": " Pembiayaan antar perusahaan – kebijakan penentuan harga transfer"
+              "id": " Pembiayaan antar perusahaan – kebijakan harga transfer"
             },
             {
               "type": "paragraph",
@@ -29607,7 +29607,7 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Persyaratan konten Master File"
+              "en": " Persyaratan konten Dokumen Induk"
             },
             {
               "type": "paragraph",
@@ -29635,11 +29635,11 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Produk / Segmen bisnis / Pasar"
+              "en": " Produk / Segmen Usaha / Pasar"
             },
             {
               "type": "paragraph",
-              "en": " Penggerak penting laba bisnis"
+              "en": " Penggerak penting keuntungan bisnis"
             },
             {
               "type": "paragraph",
@@ -29659,7 +29659,7 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Organisasi Litbang"
+              "en": " Organisasi Penelitian dan Pengembangan (R&D)"
             },
             {
               "type": "paragraph",
@@ -29667,11 +29667,11 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Perjanjian penting dan kebijakan penentuan harga transfer"
+              "en": " Perjanjian penting dan kebijakan harga transfer"
             },
             {
               "type": "paragraph",
-              "en": " Transfer penting dari aktiva tidak berwujud"
+              "en": " Pengalihan penting atas aktiva tidak berwujud"
             },
             {
               "type": "paragraph",
@@ -29687,11 +29687,11 @@ export const documentLibrary = {
             },
             {
               "type": "paragraph",
-              "en": " Fungsi pembiayaan terpusat"
+              "en": " Fungsi pembiayaan sentral"
             },
             {
               "type": "paragraph",
-              "en": " Pembiayaan antar perusahaan – kebijakan penentuan harga transfer"
+              "en": " Pembiayaan antar perusahaan – kebijakan harga transfer"
             },
             {
               "type": "paragraph",
