@@ -67,7 +67,7 @@ const ParagraphPair = ({ en, id, docId, versionId, paragraphId }) => {
         </div>
       )}
 
-      {id && docId && versionId && paragraphId && (
+      {!isFullyTranslated && id && docId && versionId && paragraphId && (
         <CommentThread 
           docId={docId}
           versionId={versionId}
