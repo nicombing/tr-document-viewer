@@ -261,27 +261,27 @@ const ComparisonView = ({ isSidebarOpen }) => {
         <section className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-8 shadow-sm">
           <h2 className="text-xl font-bold text-slate-800 mb-4 font-sans flex items-center">
             <CheckCircle2 className="text-green-500 mr-2" />
-            Translation Methodology & Approach
+            Translation & Comparison Analysis
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-700 font-sans text-sm leading-relaxed">
             <div>
               <p className="mb-3">
-                <strong>1. Stylistic Consistency:</strong> The syntactic structure, formal tone, and bilingual formatting of the TR23 master file were strictly adopted for both TR24 and TR25. The blue-box translation format is identically reproduced.
+                <strong>1. Stylistic Consistency:</strong> The syntactic structure and formal tone of the base document are maintained in the target translation. This ensures the intended meaning and formatting are strictly preserved.
               </p>
               <p className="mb-3">
-                <strong>2. Exact Terminology:</strong> Critical tax and transfer pricing terms established in TR23 (e.g., <em>"arm's length principle"</em> → <em>"prinsip kewajaran dan kelaziman usaha"</em>) are used verbatim throughout all subsequent documents to ensure regulatory consistency.
+                <strong>2. Exact Terminology:</strong> Critical industry-specific terms and keywords are translated consistently throughout the document to ensure regulatory and technical accuracy.
               </p>
             </div>
             <div>
               <p className="mb-3">
-                <strong>3. Proper Noun Preservation:</strong> Specific company entities (e.g., <em>Olam Group Limited</em>, <em>Olam Brands B.V.</em>), proprietary platforms (e.g., <em>AtSource</em>, <em>OFIS</em>), and financial institutions remain untranslated to maintain legal accuracy.
+                <strong>3. Proper Noun Preservation:</strong> Specific entities, proprietary platforms, and global institutions generally remain untranslated to maintain legal and factual accuracy.
               </p>
               <p>
-                <strong>4. Diff Analysis (Translations):</strong> We perform a word-by-word comparison on the translated text (Bahasa Indonesia) between TR23 and the target document. The English text is left plain for clarity.
-                <br/>• <span className="bg-yellow-200 px-1 rounded shadow-sm border border-yellow-300 text-yellow-900">Yellow</span> means the translation is identical.
-                <br/>• <span className="bg-red-200 text-red-900 px-1 rounded line-through decoration-red-500">Red strike</span> means text was removed from TR23.
-                <br/>• <span className="bg-green-200 text-green-900 px-1 rounded font-medium">Green</span> means text was added or changed in the target.
-                <br/>• <span className="bg-pink-200 text-pink-900 px-1 rounded font-medium">Pink</span> indicates the paragraph was significantly rewritten, but addresses the same context. <strong>(Click any pink paragraph to automatically scroll to its counterpart!)</strong>
+                <strong>4. Diff Analysis (Translations):</strong> We perform a structural comparison between the base document and the target translation.
+                <br/>• <span className="bg-yellow-200 px-1 rounded shadow-sm border border-yellow-300 text-yellow-900">Yellow</span> indicates identical phrasing or untranslated terminology.
+                <br/>• <span className="bg-red-200 text-red-900 px-1 rounded line-through decoration-red-500">Red strike</span> indicates text present in the base but missing/changed in the target.
+                <br/>• <span className="bg-green-200 text-green-900 px-1 rounded font-medium">Green</span> indicates text unique to the target translation.
+                <br/>• <span className="bg-pink-200 text-pink-900 px-1 rounded font-medium">Pink</span> highlights paragraphs with significant rewrites or localized adaptations. <strong>(Click to scroll!)</strong>
               </p>
             </div>
           </div>

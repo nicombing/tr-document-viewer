@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import Sidebar from './Sidebar';
 import DocumentView from './DocumentView';
 import ComparisonView from './ComparisonView';
+import UploadView from './UploadView';
 import { Menu } from 'lucide-react';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth >= 1024);
-  const [activeDocId, setActiveDocId] = useState('TR23');
+  const [activeDocId, setActiveDocId] = useState('AcmeCorp_2023');
   const [activeVersionId, setActiveVersionId] = useState('V1');
-  const [viewMode, setViewMode] = useState('document'); // 'document' or 'comparison'
+  const [viewMode, setViewMode] = useState('upload'); // default to 'upload' for new users
 
   return (
     <div className="flex h-screen bg-white font-sans overflow-hidden">
@@ -22,7 +23,7 @@ function App() {
           <Menu size={24} />
         </button>
         <span className="ml-4 font-bold text-gray-800 font-sans truncate">
-          {viewMode === 'comparison' ? 'Comparison Analysis' : `Transfer Pricing ${activeDocId} (${activeVersionId})`}
+          {viewMode === 'upload' ? 'Upload Document' : viewMode === 'comparison' ? 'Comparison Analysis' : `Transla - ${activeDocId}`}
         </span>
       </header>
 
@@ -47,7 +48,10 @@ function App() {
         viewMode={viewMode}
         setViewMode={setViewMode}
       />
-      {viewMode === 'comparison' ? (
+      
+      {viewMode === 'upload' ? (
+        <UploadView isSidebarOpen={isSidebarOpen} />
+      ) : viewMode === 'comparison' ? (
         <ComparisonView isSidebarOpen={isSidebarOpen} />
       ) : (
         <DocumentView 
