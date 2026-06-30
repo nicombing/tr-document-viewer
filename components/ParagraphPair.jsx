@@ -33,29 +33,33 @@ const ParagraphPair = ({ en, id, docId, versionId, paragraphId }) => {
     });
   };
 
+  const isFullyTranslated = versionId === 'V1 fully translated';
+
   return (
     <div className="mb-8">
       {/* English Paragraph */}
-      <div className="relative group text-gray-900 font-serif text-base leading-relaxed mb-3">
-        {renderText(en)}
-        <button
-          onClick={() => handleCopy(en, 'en')}
-          className="absolute -top-2 -right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white border border-gray-200 text-gray-500 hover:text-blue-600 rounded-md p-1.5 shadow-sm focus:outline-none z-10"
-          title="Copy text"
-        >
-          {copiedLang === 'en' ? <Check size={16} className="text-green-500" /> : <Copy size={16} />}
-        </button>
-      </div>
+      {!isFullyTranslated && (
+        <div className="relative group text-gray-900 font-serif text-base leading-relaxed mb-3">
+          {renderText(en)}
+          <button
+            onClick={() => handleCopy(en, 'en')}
+            className="absolute -top-2 -right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white border border-gray-200 text-gray-500 hover:text-blue-600 rounded-md p-1.5 shadow-sm focus:outline-none z-10"
+            title="Copy text"
+          >
+            {copiedLang === 'en' ? <Check size={16} className="text-green-500" /> : <Copy size={16} />}
+          </button>
+        </div>
+      )}
       
       {/* Indonesian Translation Paragraph (Optional) */}
       {id && (
-        <div className="relative group bg-blue-50 border-l-4 border-blue-500 p-5 rounded-r-md mt-3">
-          <div className="text-gray-700 font-serif text-base leading-relaxed pr-6">
+        <div className={`relative group ${isFullyTranslated ? 'text-gray-900 font-serif text-base leading-relaxed mb-3' : 'bg-blue-50 border-l-4 border-blue-500 p-5 rounded-r-md mt-3'}`}>
+          <div className={`font-serif text-base leading-relaxed ${isFullyTranslated ? 'text-gray-900' : 'text-gray-700 pr-6'}`}>
             {renderText(id)}
           </div>
           <button
             onClick={() => handleCopy(id, 'id')}
-            className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white border border-blue-200 text-blue-500 hover:text-blue-700 rounded-md p-1.5 shadow-sm focus:outline-none z-10"
+            className={`absolute opacity-0 group-hover:opacity-100 transition-opacity bg-white border shadow-sm focus:outline-none z-10 ${isFullyTranslated ? '-top-2 -right-2 border-gray-200 text-gray-500 hover:text-blue-600 rounded-md p-1.5' : 'top-2 right-2 border-blue-200 text-blue-500 hover:text-blue-700 rounded-md p-1.5'}`}
             title="Copy translated text"
           >
             {copiedLang === 'id' ? <Check size={16} className="text-green-500" /> : <Copy size={16} />}
