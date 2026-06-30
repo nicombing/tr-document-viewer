@@ -9,7 +9,7 @@ import { Menu } from 'lucide-react';
 
 export default function Home() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [activeDocId, setActiveDocId] = useState('Journey2Quit');
+  const [activeDocId, setActiveDocId] = useState('TR25');
   const [activeVersionId, setActiveVersionId] = useState('V1 Side by side');
   const [viewMode, setViewMode] = useState('document'); // default to 'document' for private viewer
 
