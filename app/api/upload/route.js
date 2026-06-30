@@ -109,7 +109,7 @@ Important Rules:
   } catch (error) {
     console.error('Error during file upload:', error);
     return NextResponse.json(
-      { error: 'Internal Server Error' },
+      { error: error.message || 'Internal Server Error' },
       { status: 500 }
     );
   }
