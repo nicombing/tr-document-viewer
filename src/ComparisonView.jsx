@@ -4,8 +4,12 @@ import { CheckCircle2, ArrowRightLeft } from 'lucide-react';
 import { diffWords } from 'diff';
 
 const ComparisonView = ({ isSidebarOpen }) => {
-  const [targetDocId, setTargetDocId] = useState('TR24'); // TR24 or TR25
-  const baseDocId = 'TR23';
+  const docKeys = Object.keys(documentLibrary);
+  const defaultBase = docKeys.length > 0 ? docKeys[0] : '';
+  const defaultTarget = docKeys.length > 1 ? docKeys[1] : defaultBase;
+
+  const [targetDocId, setTargetDocId] = useState(defaultTarget);
+  const baseDocId = defaultBase;
   const version = 'V1';
 
   const baseSections = documentLibrary[baseDocId]?.versions[version] || [];
@@ -286,7 +290,7 @@ const ComparisonView = ({ isSidebarOpen }) => {
         {/* Selector */}
         <div className="flex items-center mb-6 bg-white p-4 border border-gray-200 rounded-lg shadow-sm sticky top-0 z-10">
           <div className="flex items-center flex-1">
-            <span className="font-bold text-lg text-gray-800 w-32 text-center bg-gray-100 py-2 rounded-md">TR23 (Base)</span>
+            <span className="font-bold text-lg text-gray-800 px-4 text-center bg-gray-100 py-2 rounded-md">{documentLibrary[baseDocId]?.name || 'Base Document'}</span>
           </div>
           <div className="px-4 text-gray-400">
             <ArrowRightLeft />
@@ -295,10 +299,11 @@ const ComparisonView = ({ isSidebarOpen }) => {
             <select 
               value={targetDocId}
               onChange={(e) => setTargetDocId(e.target.value)}
-              className="bg-blue-50 border border-blue-300 text-blue-900 text-lg font-bold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2 text-center shadow-sm cursor-pointer hover:bg-blue-100 transition-colors"
+              className="bg-blue-50 border border-blue-300 text-blue-900 text-lg font-bold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-auto min-w-[200px] p-2 text-center shadow-sm cursor-pointer hover:bg-blue-100 transition-colors"
             >
-              <option value="TR24">TR24 (Target)</option>
-              <option value="TR25">TR25 (Target)</option>
+              {docKeys.map(key => (
+                <option key={key} value={key}>{documentLibrary[key].name}</option>
+              ))}
             </select>
           </div>
         </div>
@@ -307,7 +312,7 @@ const ComparisonView = ({ isSidebarOpen }) => {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
           {/* Base Document (Left) */}
           <div className="border border-gray-200 rounded-lg p-6 bg-white shadow-sm overflow-hidden flex flex-col h-[800px]">
-            <h2 className="text-2xl font-bold font-sans text-gray-900 border-b-4 border-gray-800 pb-2 mb-4 shrink-0 inline-block w-fit">TR23 Master File</h2>
+            <h2 className="text-2xl font-bold font-sans text-gray-900 border-b-4 border-gray-800 pb-2 mb-4 shrink-0 inline-block w-fit">{documentLibrary[baseDocId]?.name || 'Base Document'}</h2>
             <div className="overflow-y-auto pr-4 flex-1 custom-scrollbar">
               {baseSections.map(sec => renderSection(sec, true))}
             </div>
@@ -315,7 +320,7 @@ const ComparisonView = ({ isSidebarOpen }) => {
 
           {/* Target Document (Right) */}
           <div className="border border-blue-200 rounded-lg p-6 bg-blue-50/30 shadow-sm overflow-hidden flex flex-col h-[800px]">
-            <h2 className="text-2xl font-bold font-sans text-blue-900 border-b-4 border-blue-800 pb-2 mb-4 shrink-0 inline-block w-fit">{targetDocId} Translated</h2>
+            <h2 className="text-2xl font-bold font-sans text-blue-900 border-b-4 border-blue-800 pb-2 mb-4 shrink-0 inline-block w-fit">{documentLibrary[targetDocId]?.name || 'Target Document'} Translated</h2>
             <div className="overflow-y-auto pr-4 flex-1 custom-scrollbar">
               {targetSections.map(sec => renderSection(sec, false))}
             </div>
