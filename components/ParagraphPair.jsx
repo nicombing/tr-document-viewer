@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Copy, Check } from 'lucide-react';
+import CommentThread from './CommentThread';
 
-const ParagraphPair = ({ en, id }) => {
+const ParagraphPair = ({ en, id, docId, versionId, paragraphId }) => {
   const [copiedLang, setCopiedLang] = useState(null);
 
   const handleCopy = (text, lang) => {
@@ -60,6 +61,14 @@ const ParagraphPair = ({ en, id }) => {
             {copiedLang === 'id' ? <Check size={16} className="text-green-500" /> : <Copy size={16} />}
           </button>
         </div>
+      )}
+
+      {id && docId && versionId && paragraphId && (
+        <CommentThread 
+          docId={docId}
+          versionId={versionId}
+          paragraphId={paragraphId}
+        />
       )}
     </div>
   );

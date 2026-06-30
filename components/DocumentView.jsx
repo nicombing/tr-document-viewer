@@ -21,7 +21,12 @@ const DocumentView = ({ activeDocId, activeVersionId, isSidebarOpen }) => {
 
         {sections.length > 0 ? (
           sections.map((section) => (
-            <DocumentSection key={section.id} section={section} />
+            <DocumentSection 
+              key={section.id} 
+              section={section} 
+              docId={activeDocId}
+              versionId={activeVersionId}
+            />
           ))
         ) : (
           <div className="flex flex-col items-center justify-center py-20 text-center border-2 border-dashed border-gray-200 rounded-xl bg-gray-50 mt-10">

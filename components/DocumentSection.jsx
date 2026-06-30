@@ -3,7 +3,7 @@ import ParagraphPair from './ParagraphPair';
 import TablePair from './TablePair';
 import ImagePair from './ImagePair';
 
-const DocumentSection = ({ section }) => {
+const DocumentSection = ({ section, docId, versionId }) => {
   return (
     <section id={section.id} className="mb-16 scroll-mt-8">
       <h2 className="text-2xl font-sans font-semibold text-gray-800 mb-6 pb-2 border-b border-gray-200">
@@ -17,7 +17,16 @@ const DocumentSection = ({ section }) => {
           if (block.type === 'image') {
             return <ImagePair key={index} src={block.src} alt={block.alt} caption={block.caption} />;
           }
-          return <ParagraphPair key={index} en={block.en} id={block.id} />;
+          return (
+            <ParagraphPair 
+              key={index} 
+              en={block.en} 
+              id={block.id}
+              docId={docId}
+              versionId={versionId}
+              paragraphId={`${section.id}-block-${index}`} 
+            />
+          );
         })}
       </div>
     </section>
