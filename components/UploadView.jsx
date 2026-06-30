@@ -31,9 +31,34 @@ const UploadView = ({ isSidebarOpen }) => {
     }
   };
 
-  const handleUpload = () => {
-    // Phase 3 & 4 implementation will go here
-    alert("AI Translation Engine integration coming soon! Your file would be uploaded and translated automatically.");
+  const [isUploading, setIsUploading] = useState(false);
+
+  const handleUpload = async () => {
+    if (!selectedFile) return;
+    setIsUploading(true);
+
+    try {
+      const formData = new FormData();
+      formData.append('file', selectedFile);
+
+      const response = await fetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+      });
+
+      const data = await response.json();
+      
+      if (response.ok) {
+        alert(data.message + "\nFile Name: " + data.fileName + "\nSize: " + data.fileSize + " bytes\n\nNext Step: AI Parsing integration!");
+      } else {
+        alert("Upload failed: " + data.error);
+      }
+    } catch (error) {
+      console.error("Error uploading file:", error);
+      alert("Failed to connect to the backend.");
+    } finally {
+      setIsUploading(false);
+    }
   };
 
   return (
@@ -75,10 +100,11 @@ const UploadView = ({ isSidebarOpen }) => {
                 <p className="text-slate-800 font-semibold text-lg font-sans mb-1">{selectedFile.name}</p>
                 <p className="text-slate-500 text-sm font-sans mb-6">{(selectedFile.size / 1024 / 1024).toFixed(2)} MB</p>
                 <button 
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-sm transition-colors text-lg"
+                  className={`text-white font-semibold py-3 px-8 rounded-lg shadow-sm transition-colors text-lg ${isUploading ? 'bg-blue-400 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700'}`}
                   onClick={(e) => { e.stopPropagation(); handleUpload(); }}
+                  disabled={isUploading}
                 >
-                  Start Translation Process
+                  {isUploading ? 'Uploading to API...' : 'Start Translation Process'}
                 </button>
               </div>
             ) : (
