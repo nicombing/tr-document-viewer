@@ -36,7 +36,7 @@ export async function POST(request) {
 
     const prompt = `You are a professional document translator and parser. 
 Your job is to read this document (which might contain text, images, and tables) and extract its structure.
-Translate the text to English if it is not already.
+Translate the text to Indonesian (Bahasa Indonesia).
 
 Please output the result STRICTLY as a raw JSON object (without any markdown formatting like \`\`\`json) matching this exact format:
 {
@@ -46,17 +46,25 @@ Please output the result STRICTLY as a raw JSON object (without any markdown for
       {
         "type": "heading",
         "level": 1,
-        "content": "Heading text here"
+        "content": [
+          { "type": "paragraph", "en": "Original Heading text", "id": "Indonesian translated heading" }
+        ]
       },
       {
-        "type": "paragraph",
-        "content": "Paragraph text here"
+        "id": "section-1",
+        "title": "Original Title",
+        "content": [
+          { "type": "paragraph", "en": "Original English paragraph text here", "id": "Translated Indonesian paragraph text here" }
+        ]
       }
     ]
   }
 }
 
-Use "heading" (with a level), "paragraph", "table", or "image" as the types.`;
+Important Rules:
+1. Follow the 'en' and 'id' format strictly for every piece of text.
+2. Group related paragraphs under sections with a title.
+3. Be comprehensive and capture the essence of the document.`;
 
     console.log("Sending file to Gemini...");
     
