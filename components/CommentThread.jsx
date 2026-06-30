@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../lib/firebase';
-import { collection, query, where, onSnapshot, addDoc, serverTimestamp, orderBy } from 'firebase/firestore';
+import { collection, query, where, onSnapshot, addDoc, serverTimestamp } from 'firebase/firestore';
 import { MessageSquare, Send } from 'lucide-react';
 
 const CommentThread = ({ docId, versionId, paragraphId }) => {
@@ -16,8 +16,7 @@ const CommentThread = ({ docId, versionId, paragraphId }) => {
       collection(db, 'comments'),
       where('docId', '==', docId),
       where('versionId', '==', versionId),
-      where('paragraphId', '==', paragraphId),
-      orderBy('createdAt', 'asc')
+      where('paragraphId', '==', paragraphId)
     );
 
     const unsubscribe = onSnapshot(q, (snapshot) => {
@@ -25,6 +24,14 @@ const CommentThread = ({ docId, versionId, paragraphId }) => {
         id: doc.id,
         ...doc.data()
       }));
+      
+      // Sort comments client-side to avoid requiring a composite index in Firestore
+      fetchedComments.sort((a, b) => {
+        const timeA = a.createdAt?.toMillis() || 0;
+        const timeB = b.createdAt?.toMillis() || 0;
+        return timeA - timeB;
+      });
+      
       setComments(fetchedComments);
     });
 
