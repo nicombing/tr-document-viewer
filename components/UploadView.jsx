@@ -33,34 +33,88 @@ const UploadView = ({ isSidebarOpen, setActiveDocId, setViewMode }) => {
     }
   };
 
+  const [uploadProgress, setUploadProgress] = useState("");
+
   const handleUpload = async () => {
     if (!selectedFile) return;
+    
+    // Only apply chunking to PDF files
+    if (selectedFile.type !== 'application/pdf' && !selectedFile.name.toLowerCase().endsWith('.pdf')) {
+      alert("Currently, chunked translation only supports PDF files.");
+      return;
+    }
+
     setIsUploading(true);
+    setUploadProgress("Preparing PDF for chunking...");
 
     try {
-      const formData = new FormData();
-      formData.append('file', selectedFile);
-
-      const response = await fetch('/api/upload', {
-        method: 'POST',
-        body: formData,
-      });
-
-      const data = await response.json();
+      const { PDFDocument } = await import('pdf-lib');
+      const arrayBuffer = await selectedFile.arrayBuffer();
+      const pdfDoc = await PDFDocument.load(arrayBuffer);
+      const totalPages = pdfDoc.getPageCount();
+      const PAGES_PER_CHUNK = 5;
+      const chunks = Math.ceil(totalPages / PAGES_PER_CHUNK);
       
-      if (response.ok && data.documentData) {
-        const newDocId = `doc_${Date.now()}`;
-        addDocumentToLibrary(newDocId, data.documentData);
-        setActiveDocId(newDocId);
-        setViewMode('comparison');
-      } else {
-        alert("Upload failed: " + (data.error || "Unknown error"));
+      let allContent = [];
+      let documentName = selectedFile.name;
+
+      for (let i = 0; i < chunks; i++) {
+        setUploadProgress(`Translating part ${i + 1} of ${chunks}... (Pages ${i * PAGES_PER_CHUNK + 1}-${Math.min((i + 1) * PAGES_PER_CHUNK, totalPages)})`);
+        
+        const chunkPdf = await PDFDocument.create();
+        const startPage = i * PAGES_PER_CHUNK;
+        const endPage = Math.min(startPage + PAGES_PER_CHUNK, totalPages);
+        
+        const pageIndices = Array.from({ length: endPage - startPage }, (_, idx) => startPage + idx);
+        const copiedPages = await chunkPdf.copyPages(pdfDoc, pageIndices);
+        copiedPages.forEach((page) => chunkPdf.addPage(page));
+        
+        const chunkBytes = await chunkPdf.save();
+        const chunkBlob = new Blob([chunkBytes], { type: 'application/pdf' });
+        
+        const formData = new FormData();
+        formData.append('file', chunkBlob, `chunk_${i}.pdf`);
+
+        const response = await fetch('/api/upload', {
+          method: 'POST',
+          body: formData,
+        });
+
+        const data = await response.json();
+        
+        if (response.ok && data.documentData) {
+          if (data.documentData.name && data.documentData.name !== "Translated Document") {
+            documentName = data.documentData.name;
+          }
+          if (data.documentData.versions && data.documentData.versions.V1) {
+            allContent = [...allContent, ...data.documentData.versions.V1];
+          }
+        } else {
+          throw new Error("Failed at chunk " + (i + 1) + ": " + (data.error || "Unknown error"));
+        }
       }
+
+      setUploadProgress("Finalizing document...");
+      
+      // Combine all chunks into one document
+      const mergedDocument = {
+        name: documentName,
+        versions: {
+          V1: allContent
+        }
+      };
+
+      const newDocId = `doc_${Date.now()}`;
+      addDocumentToLibrary(newDocId, mergedDocument);
+      setActiveDocId(newDocId);
+      setViewMode('comparison');
+
     } catch (error) {
       console.error("Error uploading file:", error);
-      alert("Failed to connect to the backend.");
+      alert(error.message || "Failed to process the document.");
     } finally {
       setIsUploading(false);
+      setUploadProgress("");
     }
   };
 
@@ -107,7 +161,7 @@ const UploadView = ({ isSidebarOpen, setActiveDocId, setViewMode }) => {
                   onClick={(e) => { e.stopPropagation(); handleUpload(); }}
                   disabled={isUploading}
                 >
-                  {isUploading ? 'Uploading to API...' : 'Start Translation Process'}
+                  {isUploading ? (uploadProgress || 'Processing...') : 'Start Translation Process'}
                 </button>
               </div>
             ) : (
