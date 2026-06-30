@@ -1,0 +1,1074 @@
+Error! Use the Home tab to apply Document title to the text that you want to appear here.  | Error! Use the Home tab to apply Section title to the text that you want 
+to appear here.  
+ 
+  
+ 
+ 
+Olam Food Ingredients Group  
+Master File  for the financial year ended  
+31 December 2025  
+ 
+4 June 2026  
+
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Table of contents  
+2 Table of contents  
+1. Executive summary  5 
+ Introduction  5 
+ Purpose and scope  6 
+ Master File content requirements  6 
+2. Organisational structure  8 
+ Background  8 
+ Legal and ownership structure  9 
+ Geographic locations  9 
+3. ofi Group’s business  10 
+ Overview of ofi Group’s business  10 
+ Products / Business segments / Markets  11 
+ Important drivers of business profit  12 
+ Summary of functional analysis  14 
+ Acquisitions and divestitures  18 
+4. Intangibles  19 
+ Overview & Group Strategy  19 
+ R&D organisation  20 
+ Details of major intangibles  20 
+ Important agreements and transfer pricing policy  21 
+ Important transfers of intangibles  22 
+5. Intercompany Financial Activities  23 
+ Group financing overview  23 
+ External financing arrangements  23 
+ Central financing functions  24 
+ Intercompany financing – transfer pricing policy  24 
+6. Important Service Agreements  25 
+7. Financial and tax position  26 
+ Financial results  26 
+ Advance Pricing Arrangements (“APAs”) and other tax rulings  26 
+8. Scope  28 
+ Scope of the report  28 
+ Work performed  28 
+ Limitations of the report  28 
+ 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | List of appendices  
+3 List of appendices  
+Appendix A. ofi Group – Legal and ownership structure   
+Appendix B. List of key ofi Group entities   
+ 
+ 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Glossary  
+4 Glossary  
+ 
+Abbreviations  Full name  / description  
+APA Advance Pricing Arrangement  
+B2B Business -to-Business  
+B2C Business -to-Consumer  
+BEPS  Base Erosion Profit Shifting  
+CSC Customer Solutions Centre  
+Deloitte Singapore, we or our  Deloitte Singapore Tax Services  Pte. Ltd.  
+GKAM  Global Key Account Managers  
+IEC Ingredient Excellence Centre  
+IP Intellectual Property  
+MTN  Medium -term notes  
+Incoterms  International Commercial Terms  
+M&A  Merger & Acquisition  
+OECD  Organisation for Economic Co -operation and Development  
+OECD TP Guidelines  OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations  
+OFIS  Olam Farmer Information System  
+OGL  Olam Group Limited  
+Olam Agri  Olam Agri Group  
+ofi Group or the Group  Olam Food Ingredients  
+OIL Olam International Limited  
+OTPL  Olam Treasury Pte Ltd  
+p.a. per annum  
+OHBV  Olam Holdings B.V.  
+R&D  Research and Development  
+SALIC  Saudi Agricultural and Livestock Investment Company  
+TP Transfer Pricing  
+  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Executive summary  
+ 
+ 
+ 
+5 1. Executive summary  
+ Introduction  
+The Olam Group ( together with its worldwide affiliates ) is a leading food and agri -business supplying food, ingredients, feed and fibre to 
+customers worldwide. The  Group’s value chain spans over 60 countries and includes farming, origination, processing and distribution 
+operations.  
+The Olam Group is listed on the main board of the Singapore Exchange and is supported by large shareholders namely, Temasek H oldings 
+(52.06 %), Mitsubishi Corporation ( 14.71 %), Kewalram Chanrai Group (7.0 3%) and Olam’s Directors (4. 54%). 1 
+In January 2022, the Olam Group completed the separation and carve -out of its businesses into three distinct operating groups - Olam 
+Food Ingredients (“ofi  Group ” or the “Group” ), Olam Agri, and the Remaining Olam Group. This re -organisation would enable each 
+operating group to attract natural long -term investors and enhance the standalone intrinsic value of ofi, Olam Agri, and the Remaining 
+Olam Group businesses, thereby unlocki ng long -term value. 2 
+Olam Group Limited (“OGL”), as the parent company of the Olam Group, holds 100% of ofi. In 2025, the Olam Group announced an 
+agreement to sell its remaining 64.57% stake in Olam Agri to Saudi Agricultural and Livestock Investment Company (“SALIC”). As part of 
+the re-organisation plan Olam Group is also in the process of responsibly divest ing the assets and businesses of the Remaining Olam 
+Group, so as to focus on successfully executing the growth initiatives at ofi with the objective of realising its full p otential value .3 
+This Master File is prepared to cover the business  / commercial arrangements (including intercompany financial activities, transfer pricing 
+policies and intangibles, etc.) of the ofi Group only.4 
+ofi is a  leading integrated solutions and ingredient supplier in food and beverage, offering sustainable, natural and value -added food  
+ingredients and solutions. As of end of FY  2025 , the ofi Group was operating in 50 countries and had a workforce of 18,000  employees.5  
+Deloitte Singapore Tax Services  Pte. Ltd.  (“Deloitte Singapore”, “we” or “our”) was engaged by OIL to prepare the Master File for the ofi 
+Group  – a transfer pricing (“TP”) document which describes the operations and common transfer pricing policies of ofi Grou p. 
+This report (hereinafter referred to as “Report” or “ ofi Group Master File”) was prepared in accordance  with the Organisation for 
+Economic Co -operation and Development (“OECD”) Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations 
+(“OECD TP Guidelines”), published by the Organization for Economic Co -operation and Development in J uly 1995, and subsequently 
+amended on January 20, 2022 . The documentation approach applied hereunder is in line with the recommendations  of the OECD’s Ba se 
+Erosion Profit Shifting (“BEPS”) Action 13, 2015 Final Report on Transfer Pricing Documentation and Country -by-Country Reporting . 
+ 
+1 Source: Olam Group Limited Annual Report 2025 (page 166) 
+2 Source: Olam Group Limited Annual Report 2025 (page 2 & 3)  
+3 Source: Olam Group Limited Annual Report 2025 (page 2)  
+4 The Olam Group has prepared a Master File (hereinafter referred to as “Group’s Master File”) in -line with the OECD requirements for the other operating groups of Olam 
+Group i.e., covering Olam Agri Group and the Remaining Olam Group  for FY  2025 . Accordingly, this document should be read in -conjunction and would serve to be a 
+supplement to the above stated Group’s Master File for FY  2025 (“OGL Master File”).  
+5 Source:  Olam Group Investor Factsheet  – April 2026  (page 4) and Olam Group Limited Annual Report 2025 (page 25) 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Executive summary  
+ 
+ 
+ 
+6 
+ Purpose and scope  
+This Master File provides an overview of ofi Group’s business, including the nature of its global business operations, its ov erall transfer 
+pricing policies, and its global allocation of income and economic activity. It intends to provide a high -level summ ary in order to place ofi 
+Group's transfer pricing practices in its global economic, legal, financial and tax context.  
+The Master File sits alongside the individual transfer pricing Local Files  for various ofi Group ’s entities and assist s ofi Group  in 
+demonstrating that it has complied with the arm's length principle as provided by the OECD Guidelines.  
+This Master File  provides an overview of ofi Group’ s global business for FY  2025 . Accordingly, i nformation regarding each operating 
+territory will be fo und in the corresponding Local f iles. 
+ Master File content requirements  
+The below table presents a summary of the Master File requirements laid down in Annex I of Chapter V of the OECD TP Guidelines and 
+indicates where in this document each of these requirements is fulfilled.  
+Exhibit 1:  Alignment with OECD Master File requirements (Annex I to Chapter V)  
+Requirement  Section  Reference  
+Organisational structure   
+• Chart illustrating the MNE’s legal and ownership structure and geographical location of operating 
+entities.  Section 2  
+Description of MNE’s business(es) – General written description of the MNE’s business including:   
+• Important drivers of business profit.  Section 3. 3 
+• A description of the supply chain for the group’s five largest products and/ or service offerings by 
+turnover plus any other products and/or services amounting to more than 5 percent of group 
+turnover. The required description could take the form of a char t or a diagram.  Section s 3.1, 3.2  
+• A description of the main geographic markets for the group’s products and services that are 
+referred to in the point above.  Section 3. 2 
+• A brief written functional analysis describing the principal contributions to value creation by 
+individual entities within the group, i.e. key functions performed, important risks assumed, and 
+important assets used.  Section 3. 4 
+• A description of important business restructuring transactions, acquisitions and divestitures 
+occurring during the fiscal year.  Section 3. 5 
+MNE’s intangibles   
+• A general description of the MNE’s overall strategy for the development, ownership and 
+exploitation of intangibles, including location of principal R&D facilities and location of R&D 
+management.  
+Section 4  • A list of intangibles or groups of intangibles of the MNE group that are important for transfer 
+pricing purposes and which entities legally own them.  
+• A list of important agreements among identified associated enterprises related to intangibles, 
+including cost contribution arrangements, principal research service agreements and license 
+agreements.  
+• A general description of the group’s transfer pricing policies related to R&D and intangibles.  
+• A general description of any important transfers of interests in intangibles among associated 
+enterprises during the fiscal year concerned, including the entities, countries, and compensation 
+involved.  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Executive summary  
+ 
+ 
+ 
+7 Requirement  Section  Reference  
+MNE’s intercompany financial activities   
+• A general description of how the group is financed, including important financing arrangements 
+with unrelated lenders.  
+Section 5  • The identification of any members of the MNE group that provide a central financing function for 
+the group, including the country under whose laws the entity is organised and the place of effective 
+management of such entities.  
+• A general description of the MNE’s general transfer pricing policies related to financing 
+arrangements between associated enterprises.  
+MNE’s Important service agreements   
+• A list and brief description of important service arrangements between members of the MNE 
+group, other than research and development (R&D) services, including a description of the 
+capabilities of the principal locations providing important services and tra nsfer pricing policies for 
+allocating services costs and determining prices to be paid for intra -group services.  Section 6  
+MNE’s financial and tax positions   
+• The MNE’s annual consolidated financial statement for the fiscal year concerned if otherwise 
+prepared for financial reporting, regulatory, internal management, tax or other purposes.  Section 7.1  
+• A list and brief description of the MNE group’s existing unilateral advance pricing agreements 
+(APAs) and other tax rulings relating to the allocation of income among countries.  Section 7.2  
+ 
+ 
+ 
+ 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Organisational structure  
+ 
+ 
+ 
+8 2. Organisational structure  
+ Background  
+In January 2020, Olam Group announced a transformational re -organisation plan to re ‑organise its diverse businesses into three distinct 
+operating groups – ofi (Olam Food Ingredients), Olam Agri and Remaining Olam Group. This re -organisation would enable each operating 
+group to attract natural long -term investors and enhance  the standalone intrinsic value of ofi, Olam Agri and the Remaining Olam Group 
+businesses, thereby unlocking long -term value.6 
+Following the February  2022  shareholder approval of the Olam Group restructuring, which became effective on March 2022, OGL became 
+the new parent company of the Olam Group holding 100% each of ofi , Olam Agri, and the Remaining Olam Group.7 Shares of OGL were 
+listed on the mainboard of the SGX -ST on March 16, 2022, with OIL delisted at the same time.  
+In December 2022, the Olam Group completed the sale of a 35.43% minority stake in Olam Agri Group to SALIC. Further, in February 
+2025, Olam Group agreed on the sale of the remaining stake of Olam Agri Group to SALIC as part of the updated re -organisation plan to 
+strengthen Olam Group’s balance sheet, ensure the resilie nce of its operating entities and unlock value for the shareholders.8 As of 
+December 31, 2025, Olam Group continued to hold the remaining 64.57% stake in Olam Agri Group.  In parallel, the Olam Group also 
+plans to responsibly divest the assets and businesses of the Remaining Olam Group , so as to focus on successfully executing the growth 
+initiatives at ofi with the objective of realising its full potential value . 9 
+The group chart of Olam Group is provided below.  
+Exhibit 2:  Olam Group chart10 
+ 
+ 
+6 Source: Olam Group Limited Annual Report 2025 (page 3)  
+7 Source: Olam Group Limited Annual Report 2022 (page 16)  
+8 Source: Olam Group Limited Annual Report 2025 (page 2 & 3)  
+9 Source: Olam Group Limited Annual Report 2025 (page 2)  
+10 Source: Olam Group Investor Factsheet  – April 2026  (page 3)  
+
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Organisational structure  
+ 
+ 
+ 
+9 The sections below provide an overview of the organisational structure of ofi Group.  
+ Legal and ownership structure  
+A table setting out the ofi Group ’s legal and ownership structure  as of 31 Dec ember  2025 , is included in Appendix A.   
+ Geographic locations  
+ofi Group continue s to be invested in origins, while building capacity in destination markets. The Group is renowned for leveraging its 
+global supply chain network and local knowledge to offer a secure supply of traceable and sustainable ingredients.11 
+• Origination  
+Quality , traceability,  and reliabi lity of supply  are driven from the farms . ofi Gro up is both a buyer of crops, as well as  an owner of its 
+own farms . It sources directly or indirectly from approximately 2.75m farmers across the globe. Worldwide, ofi Group  runs 
+sustainability programs designed to help farmers to improve yield & quality , thereby  increas ing their incomes.  Overall, the ofi Group 
+provides sustainability support to more than 532,000  farmers and their communities.12 
+• Manufacturing   
+With manufacturing and processing facilities around the world, ofi Group  offer s choice, control  and flexibility  to its customers . ofi 
+Group owns over 110+ manufacturing facilities around the world.13 ofi Group ensures that it invests in the latest technology and 
+always maintains the highest food safety and quality standards. To improve efficiency and sustainability , ofi Group’s  facilities are 
+strategically located in the country of origin or close to major consumption markets.   
+• Innovation Centers  
+ofi Group has 19 Innovation Centers  near major consumption markets which focus on continuous innovation and customisation, 
+enabling customers  to continually meet the market demand and to grow their businesses. The Innovation Centers , via dedicated 
+customer solutions centers, centers of excellence, as well as ingredient excellence centers, foster ingredient innovation, rewarding 
+creative partnerships and huge advancements in food technology and product development.    
+• Marketing & Sales  
+ofi Group’s customer teams provide detailed knowledge of ofi Group’s products and an understanding of how these products can 
+fit into customers’ applications, and act as the bridge connecting customers to the origins of their ingredients. The ofi Gro up’s s ales 
+teams are involved in discussions with customers on ingredient quality, innovation  and recipe development .  
+A more comprehensive figure of ofi Group’s sourcing and processing locations globally  may be found on ofi Group’s  website at : 
+“https://www.ofi.com/en -gb/locations ”. 
+A list of key ofi Group entities, showing their principal activities and geographic locations, is included in  Appendix B.  
+ 
+11 Source s: https://www.ofi.com/en -gb/about/global -footprint , Olam Group Limited Annual Report 202 5 (page 25) , ofi Group factsheet  (https://www.ofi.com/en -
+gb/about ) 
+12 Source: https://www.ofi.com/en -gb/about/global -footprint , Olam Group Limited Annual Report 202 5 (page 36)   
+13 Source: Olam Group Limited Annual Report 2025 (page 25)  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group’s business  
+ 
+ 
+ 
+10 3. ofi Group ’s business   
+ Overview of ofi Grou p’s business  
+ofi Group  is a global leader at the forefront of food & beverage consumer trends. Through its complementary portfolio of cocoa, coffee,  
+dairy, nuts and spices,  ofi Group  delivers sustainable, natural, and plant -based ingredients & solutions to its global and diversi fied 
+customer base . Its presence across the supply chain enables ofi to innovate and add value at each stage.14  
+The key features of the ofi Group’s business strategy include:15  
+• Strengthening resilience through commodity volatility, and optimising risk -adjusted returns  
+• Continued investments in capabilities that reinforce the integrated model  
+• Building a differentiated position in food ingredients and solutions, serving large and growing end -use categories  
+• Leveraging the sensory and functional strengths of ‘naturally good’ ingredients, to support product development and 
+reformulation that meets consumer expectations for taste, health and clean -label performance.  
+• Managing volatility and delivering sustained value through diversified portfolio, deep origin presence, and integrated sourci ng 
+and solutions platforms  
+The diagram below provides an overview of ofi Group’s business segments which spans its vertically integrated supply chain.   
+ 
+14 Source:  https://www.ofi.com/en -gb/investors  
+15 Source: Olam Group Limited Annual Report 2025 (page 3 5) 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group’s business  
+ 
+ 
+ 
+11 Exhibit 3:  ofi Group  business segments and  supply chain16 
+  
+ Products / Business segment s / Markets17 
+ofi Group’s product platforms include  cocoa, coffee, dairy, nuts, and spices  which  span across two reporting segments – Global Sourcing, 
+and Ingredients & Solutions. The Group partners with customers to co -create solutions that anticipate and meet changing consumer 
+preferences as demand increases for healthier food that  is both traceable and sustainable.  
+• Cocoa:   Product portfolio  include s cocoa powder, cocoa liquor, cocoa butter, cocoa beans  and specialty fats .18 
+• Coffee:  Product portfolio include s green coffee , soluble coffee , roast and ground coffee,  and soluble cascara powder .19 
+• Dairy:  Product portfolio include s dairy ingredients  (e.g., f at filled milk powder, whole milk powder, skimmed milk powder, 
+buttermilk powder, whey products and lactose) , dairy fats and cheese.20 
+ 
+16 Source: Olam Group Limited Annual Report 2025  (page 36) 
+17 Source: Olam Group Limited Annual Report 2025 (pages 27 and 122) 
+18 Source: https://www.ofi.com/en -gb/cocoa  
+19 Source: https://www.ofi.com/en -gb/coffee  
+20 Source s: https://www.ofi.com/en -gb/dairy , https://www.ofi.com/en -gb/dairy/dairy -ingredients   
+
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group’s business  
+ 
+ 
+ 
+12 • Nuts: Product  portfolio include s almonds, peanuts, cashews, hazelnuts, pistachios  and macadamia s.21 
+• Spices:  Product  portfolio includes onion, garlic, chiles, herbs, tropical spices  (turmeric, cumin, coriander, fennel , cinnamon , 
+ginger  and n utmeg) , pepper, purees, spice blends  (Modern Mexico , Southwest , Caribbean ), sauces , and brined chiles .22  
+The top five products by turnover for the ofi Group in FY  2025 are provided in the table below.  
+Exhibit 4:  Top five product  offerings by turnover – FY 202523 
+Product  FY 2025 Turnover (USD million)  Percentage of total ofi Group revenue  
+Cocoa  9,883  45%  
+Coffee  6,388  29%  
+Dairy  913  4% 
+Nuts  3,151  14%  
+Spices  1,514  7% 
+Total  21,849   
+The performance  of the ofi Group across its Global Sourcing and Ingredients & Solutions reporting segments is described below . 24  
+• Global Sourcing:  In FY 2025 , the Global Sourcing segment volumes declined 10.2% to 2.4 million metric tonne (“MT”), reflecting 
+purposeful prioritisation of volume and working capital towards the Ingredients & Solutions segment . Lower volumes in cocoa, 
+coffee and dairy were partially offset by increased cashew sales. Revenue increased 10.4% to S$15.6 billion, driven by the pa ss-
+through of higher raw material prices, particularly in cocoa and coffee, and higher cashew volumes.  
+• Ingredients & Solutions:  In FY 2025 , the Ingredients & Solutions segment delivered strong volume growth of  10.4% to 1.4 million 
+MT, supported by Private Label sales in  spices and nuts and improved cocoa ingredient volumes.  Segment revenue increased 
+39.2% to S$17.5 billion, reflecting pass -through of higher input prices, particularly in cocoa.  
+ofi Group operates across geographies, as it buys and sells globally with its product offerings mainly for the international market (i. e., 
+cross -border sales) which is controlled and managed directly by OIL, and with limited exception of large domestic country markets ( i.e., 
+local purchases and sales) such as the United States, which is managed locally.  
+ Important drivers of business profit   
+3.3.1.  Growth strategy25 
+The ofi Group has continued its disciplined investment approach aligned with its long -term growth objectives, with a focus on 
+strengthening its asset base and operational capabilities. While certain investments remain in the development phase, these i nitia tives 
+are expected to s upport the Group’s performance  over the coming years.  
+ 
+21 Source: https://www.ofi.com/en -gb/nuts  
+22 Source s: https://www.ofi.com/en -gb/spices , https://www.ofi.com/en -gb/spices/tropical -spices , https://www.ofi.com/en -gb/spices/spice -blends   
+23 Figures presented only relate to ofi Group’s turnover derived from external customers and excludes ofi Group’s turnover deriv ed from the other Operating Groups of 
+Olam Group.  Percentages are rounded to the nearest percentage point.  
+24 Source: Olam Group Limited Annual Report 2025  (page s 38 and 39) 
+25 Source: Olam Group Limited Annual Report 2025  (page s 40) 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group’s business  
+ 
+ 
+ 
+13 Key elements of the ofi Group’s growth strategy include:  
+• Greenfield investments  
+• Strategic acquisitions  
+• Capability development  
+• Customer expansion and relationship strengthening  
+• Increased focus on the private label segment  
+These initiatives are expected to support sustained value creation as the investments mature.  
+3.3.2.  Sales strategy26  
+ofi aims to be a fully integrated ingredients and solutions provider. The sales strategy of ofi focuses on prioritization and segmentation 
+of its customers into (i) global priority accounts, (ii) regional priority accounts, and (iii) product platform priority acco unts, with 
+differentiated sales approaches and a combination o f forces across ofi’s sales, innovation and marketing functions . 
+ofi remains focused on serving its customers  and deepening customer partnerships . Leveraging on its strong Global Sourcing network to 
+deliver  value -added Ingredients & Solutions across cocoa, coffee, dairy, nuts, and spices, ofi’s complementary portfolio helps its brands, 
+retailers, and food service customers continue to meet evolving demands for healthier indulgence, culturally authentic flavours , and new 
+product  choices , underpinned by disciplined risk management and agile supply chains which ensure continuity of supply.  
+3.3.3.  Critical success factors27 
+The critical success factors essential for the ofi Group’s business include:  
+• Traceability and provenance : Customers  increasingly demand reassurance about the origins  of ingredients. In this regard, ofi 
+leverages its traceability capabilities to provide customers with visibility over the source and provenance of its products.  The ofi 
+Group works directly with small -scale farmer s and  local cooperatives , which helps to reduce supply chain complexity and 
+enhance traceability from source to the customers. The direct relationships also provide opportunities for ofi Group to 
+implement sust ainability programmes that aims to offset social and environmental risks.  In addition,  ofi supports production 
+and yield optimisation through partnerships with large growers and the provision of proprietary seeds. The ofi Group further 
+strengthens its supply chain and traceability capabilities through leveraging of technologies, including O lam Direct, the Olam 
+Farmer Information System (“OFIS”) and AtSource.  
+• Risk management : The ofi Group  maintains an integrated and diversified supply, designed to minimise supply chain disruptions 
+and adapt to agricultural unpredictability, including fluctuating harvest yields and prices . By sourcing ingredients from multiple 
+origins, the ofi Group is able to maintain a reliable flow of goods and reduce its exposure to regional supply shocks and supply 
+shortages . Furthermore, the ofi group has a team of risk management professionals with deep expertise in the nuances of 
+agricul tural commodities and financial trading  managing  risk throughout the supply chain . ofi also  focuses on maintaining long -
+term customer partnerships and providing tailored solutions to meet their needs.  
+• Reliable and sustainable  supply chain : The ofi Group prioritises consistent functionality in food ingredients through dedicated 
+teams overseeing each stage of the supply chain process and focusing on ingredient quality control . In addition, the ofi Group 
+incorporates sustainable sourcing practices within its operations by  training smallholder farmers to produce  quality crops with  
+ 
+26 Source: Olam Group Limited Annual Report 2025 (page 26, 27) 
+27  Reference: https://www.ofi.com/en -gb/about/integrated -supply -chain  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group’s business  
+ 
+ 
+ 
+14 minim al environmental impact , using natural alternatives to synthetic chemicals. T he ofi Group also uses  customised equipment  
+to reduce contamination risks and strengthen its integrated supply chain, thereby creating benefits for both farmers and end 
+consumers .  
+• Food safety : The ofi Group places significant priority on food safety , recognising the importance of minimising contamination 
+risks and safeguarding consumer safety. To support this objective, ofi creates strong, fully integrated supply chain with large -
+scale growers and small -scale farmers , while also providing training, high -quality seeds and seedlings to help farmers reduce 
+contamination risks . Beyond the agricultural fields, ofi’s processing plants operate in accordance with the highest quality and 
+food  safety standards. The ofi Group also continues to invest in safety, health and sustainability initiatives and implements 
+comprehensive food quality systems, including Good Manufacturing Practices (“GMP”) and Hazard Analysis and Critical Control 
+Points ( “HACCP ”).  
+ Summary of functional analysis   
+The following sub -sections provide a brief functional analysis describing the principal contributions to  value creation by individual entities 
+within the ofi Group, i.e. , key functions performed, important risks assumed, and important assets used.  
+3.4.1.  Functions performed  
+3.4.1.1.  Business strategy  
+As the global headquarters  and principal trading entity  of the ofi Group , OIL is responsible for developing and implementing the ofi 
+business  strategy on a worldwide basis and providing strategic management of its consolidated worldwide subsidiaries.  
+The senior management of OIL is responsible for strategic decisions and provides inputs to various businesses, geographies and functions . 
+The business  strategy is then cascaded and executed through the related entities globally. The senior management of OIL organises and 
+attends regular calls (i.e., weekly or monthly depending on location and functions) with its related entities.  
+3.4.1.2.  Risk management  
+Risk management activities such as risk monitoring and risk assessments are undertaken centrally by the Risk Office located i n OIL. The 
+OIL team is responsible for supporting the related entities within the ofi Group to achieve their strategic goals, monit or and allocate risk 
+capital and risk return, build risk awareness and compliance culture within the Group, perform internal controls and support statutory 
+and corporate governance requirements.  
+The ofi Group continually upgrades its risk management methodology to keep in line with industry best practices. The risk man agement 
+framework is designed to rigorously identify and assess the likelihood and impact of risks, and to manage the actions neces sary to mitigate 
+impact. The process identifies risk from a top -down strategic perspective and a bottom -up business perspective. OIL takes a holistic 
+approach to enterprise -wide risk, monitoring across each value -chain step and a wide range of both quantif iable and non -quantifiable 
+risks.   
+The ofi Group has a rigorous Enterprise Risk Management framework which defines risks across various  categories including but not 
+limited to: trading risks, operational risks, currency risks, reputational risks, agricultural risks among others. The quanti tative risks are 
+reported as part of a quarterly Executive Risk Summary, looking at the likelihood of  their occurrence and their potential impact. The 
+summary is intended to assist the Board with examining the effectiveness of the risk management processes,  systems and mitigation 
+plans. Oversight of the risks is divided between the Board and four Board Committees.28 
+ 
+28 Source: Olam Group Limited Annual Report 2025 (pages 112) 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group’s business  
+ 
+ 
+ 
+15 3.4.1.3.  Farming  
+Farming of  commodities is conducted by both third -party suppliers or at the respective plantations and farms of the ofi Group. The 
+traders in OIL have the knowledge and experience of the crop cycles for the respective commodities as well as the periods of demand 
+from final custo mers. This knowledge and experience helps determine when OIL undertakes transactions with related and third -party 
+suppliers to procure specific commodities  so that they can satisfy the anticipated demand from destination entities and  maximise returns 
+by meeting market demands . 
+3.4.1.4.  Sourcing / Origination  
+The quantum of goods to be procured is determined by OIL based on historical trends or demand patterns. The purchase of goods  is 
+executed via a purchase contract between  the respective suppliers and OIL, or between the suppliers and the local ofi  Group  entity. The 
+goods are mostly sourced from third party local suppliers with a certain amount from the ofi Group plantations and farms.  
+Related party suppliers are primarily responsible for conducting groundwork and surveys at the plantations and farms and acco rdingly, 
+provide feedback to the Business Unit heads and traders in OIL. Given the geographical proximity of the related party suppliers to third 
+party suppliers as well as the ofi Group’s plantations and farms, the related party suppliers have first -hand information on the crop supply 
+and quality of the goods. As an example, the related party supplier may share feedback on periods wh ere a bumper crop is expected as 
+consequently, prices may face downward pressure due to the higher supply of the agricultural commodity. The Business Unit heads and 
+traders in OIL will take this into consideration when making purchase and sale decisions for the ofi Group.  
+The related party suppliers have the day -to-day authority to decide on third party suppliers as long it is within the supplier qualification 
+framework set up by OIL. Third party suppliers are typically evaluated based on factors such as quality, timeliness , and price to maximise 
+profitability and to support the purchase and sale activities of the ofi Group with an uninterrupted flow of goods.  
+In conducting its sourcing function, the ofi Group may also use third party agents in place of its related entities. These third -party agents 
+operate in countries where the ofi Group does not have a local presence.  
+In some instances, the Business Unit heads may personally perform the groundwork by travelling to the origin country plantati ons and 
+farms to evaluate the quality of crops with the local third -party suppliers.  
+3.4.1.5.  Processing  
+Certain products distributed by ofi Group may require various degrees of primary and secondary processing. Primary processing  activities 
+are performed within the upstream supply chain segment  near the farms and plantations and involve the conversion of raw materials to 
+food commodities  (for example, cleaning and drying of cherry beans to coffee beans, sorting and  grading of cashews, cocoa beans etc.) . 
+Secondary processing  activities involve the conversion of  food commodities into  food ingredients (for examp le, alkalising process in cocoa 
+processing, production of soluble coffee, etc. , conversion of raw cashew nuts to cashew kernels, or blanch ing/ dicing of nuts to paste 
+etc.). 
+ofi Group entities across the globe are involved in the aforementioned primary and secondary processing activities, either by  utilising 
+inhouse facilities, or, by outsourcing to third parties.  
+3.4.1.6.  Logistics  
+OIL purchases goods from its related and third parties in the origin countries for sale to its related and third parties in t he destination 
+countries. OIL follows the International Commercial Terms (“Incoterms”) in its purchase and sale transactions.  
+For purchases and sales of goods, OIL adopts various different Incoterms; these are negotiated on a transaction -by-transaction basis. In 
+most cases, goods are shipped directly from origin countries to related or third -party customers in the destination cou ntries.  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group’s business  
+ 
+ 
+ 
+16 OIL is also responsible for shipping and transportation of goods from origination countries / to destination countries with assistance fr om 
+other related entities within the Group.  
+3.4.1.7.  Sales, marketing , and distribution  
+Purchases and sales of goods in most parts of the world are concluded by OIL with third party and related party customers and suppliers.  
+There are limited exceptions such as  countries with large domestic markets where are there commercial or regulatory requirements for 
+the purchases and sales of goods to be concluded locally.  
+OIL undertakes much of the sales and marketing function within the value chain , with limited exceptions noted  above . OIL is supported 
+by local marketing teams in identifying new business leads and defining the target market. For sales made directly to third p arty 
+customers, local marketing teams assist with maintaining local customer relationships, understanding custom ers’ requirements, etc. Any 
+negotiation undertaken by the local marketing teams with customers are performed within pre -defined limits set by  OIL. Any deviation 
+from the price parameters requires approval and sign -off from OIL’s management.  
+For customers with global presence, customer relationships are managed centrally by the Business Unit heads , supported by the Global 
+Key Account Managers (“GKAMs”) . In such cases, to ensure that the customer relationship is maintained on an ongoing basis, the Business 
+Unit heads and GKAMs  actively maintain contact with the customers over the course of the transactions. In addition, the Business Unit 
+heads with assistance from the GKAMs and local marketing teams keep customers updated on the latest developments, handle customer 
+requests and monitor product stock for the customers to ensure the supply of products can be adequately met. The local market ing 
+teams participate in regular update ca lls with OIL’s management.  
+3.4.1.8.  Innovation  
+ofi Group collaborate s and co -create s with brands, grocery retailers and foodservice companies and to develop the pipeline for future 
+growth in Ingredients & Solutions.  The Customer Solutions Centres (“CSC s”) are responsible for the development and management of 
+customer -led solutions along key application categories, and are supported by the Ingredient Excellence Centre’s (“IECs”), which provide 
+deep ingredients expertise. The CSCs are organised regionally, to be closer to the ofi Group’s key customer mark ets. 
+3.4.1.9.  Supply chain management  
+As a vertically integrated business, ofi’s supply chain management activities span across (i) Plan; (ii) Source; (iii) Make; and (iv) Deliver. 
+Aside from the product sourcing and processing activities described above, the ofi Group continually develops its  manufacturing and 
+supply chain capabilities involving non -commodity procurement, improvement of  manufacturing standards and efficiencies, inventory 
+management, logistics, and safety. The Business Unit heads , Global Operations  and Global Quality and Food S afety (“QFS”)  team s 
+(supported through Regional teams) are responsible for supply chain management activities and decisions.   
+3.4.2.  Assets employed  
+3.4.2.1.  Tangible assets  
+OIL employs routine tangible assets such as buildings, plant and machinery, motor vehicles, office equipment, furniture and f ittings, 
+computers, which are necessary for the functioning of the business and to facilitate their day -to-day activities. Biological assets such as 
+bearer plants consisting of both  mature  and immature  almond  orchards,  coffee and  pepper plantations are also owned by the related 
+entities within the ofi Group. 
+Local  land,  farming  assets  and warehouses  used  in the course  of business  are owned  or managed  by the related entities within the ofi 
+Group.  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group’s business  
+ 
+ 
+ 
+17 3.4.2.2.  Intangible assets  
+The owners hip details  of intangible assets within ofi Group are described below in Section 4 of this report.  
+3.4.3.  Risks assumed  
+Risks  are factors  that may  expose  a company  to the possibility  of loss or damage.  This section  describes  the significant risks in relation to 
+the purchase and sale transactions.  
+3.4.3.1.  Credit risk  
+OIL manages credit risk as it enters into sales contracts with third party customers and there is a risk of delay  and default  on payments.  
+OIL has in place a  credit  rating  system  which  clearly  defines  the credit  limits and controls, thereby promoting the fragmentation of credit 
+exposure on short tenors. OIL also buys insurance for credit defaults.  
+For sales  made  to related  entities,  OIL does  not bear  credit  risk as the related  entities  are unlikely  to default on payment unless they 
+become insolvent. In the case of purchases by OIL from  related entities , the credit terms are mainly payment in advance.  
+3.4.3.2.  Market risk  
+On the supply side, OIL bears the risk of a shortage in supply of crops. In the event of an adverse crop yield in the respect ive plantations 
+and farms, OIL faces the risk of the inability to service its customers’ demand for the goods. However, the risk is  mitigated via sourcing 
+from multiple plantations and farms. In addition, OIL employs advanced crop -monitoring technology and agronomy experts, irrigation 
+facilities, flood control measures and crop insurance in order to manage its agricultural risk. OIL a lso maintains insurance cover against 
+risk of natural disasters, such as flood, fire, earthquake and storms.  
+On the demand side, OIL is responsible for majority of the sales within the Group. It is therefore subject to volatility in d emand for 
+goods and hence, bears the market risk in relation to demand for the goods.  
+Prices are market -driven and as such, fluctuations in supply or demand will affect the pricing of the goods. As OIL purchases and sells 
+based on market prices, any fluctuations in price will be borne by OIL.  
+3.4.3.3.  Price risk  
+The prices of agricultural commodities will vary between the time of pricing the purchase and that of the sale.  As OIL undertakes  
+physical  trades  with  counterparties,  it bears  the initial  market  price  risk. The risk of loss  is practically  unlimited  and is managed  by OIL 
+through  hedging  on the world’s  commodities  exchanges, both through  derivatives and tendering.  
+3.4.3.4.  Foreign exchange risk  
+OIL purchases and sells the majority of its products in USD. In cases where the transactions are denominated in currencies ot her than 
+USD, a foreign exchange report will be generated by the ofi Group’s shared  financial  system  and sent  to the Forex  Team  within  OIL 
+who  undertakes  the appropriate  hedging  to manage the foreign exchange exposure and risk borne by OIL.  
+In addition,  OIL also incurs  some  local  operating  expenses  in SGD.  However,  the amount  is minimal.  
+3.4.3.5.  Quality risk  
+OIL bears quality risk when the quality of the products manufactured is below the expectations of the customers. However, OIL  
+manages and limits quality risk with the due diligence conducted both by the traders  of OIL as well as the related  entities  located  in 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group’s business  
+ 
+ 
+ 
+18 origin  countries.  The local  related  parties  may  assist OIL  to check  the products  prior  to selecting  and contracting  the suppliers.  For 
+products  sourced  from  ofi Group  plantations  or farms,  the local  entities  may perform  high -level checks  on the products  prior  to selling  
+them to OIL.  
+3.4.3.6.  Inventory risk  
+For most of the products, OIL bears the inventory risk throughout the entire value chain. OIL holds inventories of the agricu ltural 
+products. To manage the inventory risk, OIL may sometimes adopt a back -to-back sales process to minimise the need for it to hold 
+inventory. As mentioned previously, OIL manages inventory risk by purchasing insurance which provides for inventory cover.  
+ Acquisitions and divestitures  
+During FY  2025 , the ofi Group did not enter in to any significant business restructuring transactions, acquisitions , or divestitures .  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Intangibles  
+ 
+ 
+ 
+19 4. Intangibles  
+This section  provides  a general  description  of the ofi Group’s  overall  strategy  for the development,  ownership  and exploitation  of 
+intangibles,  including  location  of principal  R&D  facilities.  
+ Overview & Group Strategy  
+ofi Group owns numerous intangibles (such as trademarks, trade names, etc.) in countries around the  world.   
+4.1.1.  ofi brand and AtSource29 30 
+The ofi tradename and  logos are owned  primarily by OIL and Olam Brands B.V.  This IP is developed for the benefit of the Group as a 
+whole and to improve its competitive position within the business -to-business (“B2B”) market. These intangibles are not intended for 
+targeting end consumers in the business -to-consumer (“B2C”) market.  B2B market constitutes the majority of the ofi Group’s business, 
+and hence, the ofi tradename is the main IP that customers associate with the ofi Group as a whole. In addition, OIL i s the owner of the 
+supplier and customer lists for its own purchase and sale transactions. Similarly, local entities own the supplier and customer  lists for the 
+local operations.   
+Furthermore,  ofi Group provides sustainability insights to customers with AtSource, ofi Group’s proprietary B2B sustainability 
+management system. AtSource provides traceability to a product's origin and transparency on key supply chain sustainability challenges 
+through data and insights.  It enables customers to map their unique sustainability journey, monitor performance and partner to create 
+impact through targeted interventions. It can  improve monitoring efficiency, enhance due diligence with external ass urance, and ensure 
+compliance with evolving industry standards . 
+4.1.2.  Other intangibles of the business  
+Throughout its years of operation, ofi Group has amassed a collective pool of knowledge, knowhow, and network of relationships which 
+has enabled ofi Group’s continued success.  
+Broadly , these intangibles can be classified into Innovation and Supply Chain IP : 
+• Innovation IP comprises technologies, processing techniques, recipes, combinations, trade secrets, etc. which OIL has built u p over 
+years, and more recently from the collective outputs of the Innovation Organi sations. Innovation IP can be characteri sed as (i) 
+ingredient and product technology, (ii) processes and know -how, and (iii) recipes, designs, and schematics . 
+• Supply Chain IP relates to the expansive processes, procedures, technologies, operational capabilities, network, relationship s, etc. 
+across the entire supply chain, including a vast global network of farmers, suppliers, and sourcing agents, which OIL can l everage in 
+order to optimi se purchasing and sourcing decisions for products which it can sell to global customers is characteri sed as (i) 
+processes, procedures, and technologies, (ii) operational capabilities, and (iii) network and relationships . 
+ 
+29 Source: Olam Group Limited Annual Report 202 3 (page 37) 
+30 Source: https://www.ofi.com/en -gb/sustainability/supply -chain -excellence  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Intangibles  
+ 
+ 
+ 
+20 
+ R&D organisation  
+The ofi Group is actively engaged in R&D activities to support product innovation, technological advancement and the development of 
+value -added ingredient solutions across its business segment s. The Group undertakes various initiatives and investments  that is  aimed 
+at enhancing its production capabilities, product offerings and innovation solutions to better serve customer and market requ irements.  
+The Group has undertaken various initiatives to enhance its R&D and innovation capabilities globally.  Additionally, the Group established 
+its Food & Beverage Solutions platform to consolidate application and category solutions capabilities, and  innovation solutioning across 
+its global customer solution centres.31 
+In addition to product development and innovation, d igital technology  also has a vital role in ofi Group . The Group  owns some unique 
+digital tools to help improve farming for all parties in its supply chain. Some examples of these technologies include:  
+• AtSource:  a digital  sustainability  insights  platform32 
+• Olam  Direct:  a platform  that provides  greater  access  to advice,  financing,  supplies  and sales  support33 
+• Olam Farmer Information System  (“OFIS ”): which  is a survey tool used by ofi Group’s field teams to collect  and record  data  (such 
+as farm and community infrastructure locations), manage training activities, and track financing, input distribution and 
+purchases precisely.34 
+ Details of major intangibles   
+The table below contains the list of ofi Group’s i ntangibles that are important for transfer pricing purposes.  
+Exhibit 5:  List of significant intangibles  
+Ownership  Intangible description  
+OIL Brand and trademarks  (Rest of World i.e. excluding US, 
+Brazil, China and Poland)  
+OIL Intellectual Property (AtSource)  (Rest of World i.e. 
+excluding US, Brazil, China and Poland)  
+OIL Innovation IP  (Rest of World  i.e. excluding US (for all 
+products), Europe  (in relation to Cocoa))  
+OIL Supply chain IP  (Rest of World i.e., excluding US (for all 
+products))  
+Olam Brands B.V.  Brand and trademark  (US, Brazil, China and Poland)  
+Olam Brands B.V.  Intellectual Property (AtSource)  (US, Brazil, China and 
+Poland)  
+Olam Brands B.V.  Innovation IP  (Europe  in relation to  cocoa)   
+ 
+31 Source: Olam Group Limited Annual Report 2025 (page 29 to 30)  
+32 Source: https://www.ofi.com/en -gb/sustainability/sustainability -with -atsource  
+33 Source: https://www.ofi.com/en -gb/sustainability/ofi -direct  
+34 Source: https://www.ofi.com/en -gb/sustainability/ofi -farmer -information -system   
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Intangibles  
+ 
+ 
+ 
+21 Ownership  Intangible description  
+Olam Holdings, Inc  Innovation IP (US)  
+Olam Holdings, Inc  Supply chain IP  (US)  
+Universal Blanchers, L.L.C.  Customer relationship for edible nuts platform, software  
+ Important agreements and transfer pricing policy   
+During  FY 2025 , ofi Group  had the following  agreements  relating  to intangibles:  
+Exhibit 6:  Cost contribution agreements  
+Cost contribution participants  Intangible description  
+OIL Olam Brands B.V.  ofi brand and trademark  
+OIL Olam Brands B.V.  Intellectual Property (AtSource)  
+Exhibit 7:  Cost sharing agreements  
+Cost Sharing participants  Intangible description  
+OIL Olam Brands B.V.  Innovation IP  
+Olam Holdings, Inc and its 
+associated US subsidiaries35 
+OIL Olam Holdings, Inc and its 
+associated US subsidiaries36 Supply chain IP  
+Exhibit 8:  Sub-licensing agreements  
+Sub-licensor  Sub-licensee  Intangible description  
+Olam Brands B.V.  Olam Holdings, Inc  ofi trademarks (US)  
+Olam Brands B.V.  Olam Holdings, Inc  Intellectual Property (AtSource) (US) 
+Olam Brands B.V.  Olam Agricola Ltda  ofi trademarks (Brazi l) 
+Olam Brands B.V.  Olam Agricola Ltda  Intellectual Property (AtSource) (Brazil)  
+Olam Brands B.V.  Olam Polska Sp. Z.o.o.  ofi trademarks (Poland)  
+Olam Brands B.V.  Olam Polska Sp. Z.o.o  Intellectual Property (AtSource) (Poland)  
+ 
+35 The associated US subsidiaries are Olam Americas LLC, Olam Farming Inc, Olam West Coast Inc, GEL Spice Co, Inc, Olde Thompson , LLC  
+36  The associated US subsidiaries are Olam Americas LLC, Olam Farming Inc, Olam West Coast Inc, GEL Spice Co, Inc, Olde Thompson , LLC 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Intangibles  
+ 
+ 
+ 
+22 Sub-licensor  Sub-licensee  Intangible description  
+Olam Brands B.V.  Olam Food Ingredient 
+Shanghai Limited  ofi trademarks (China ) 
+Olam Brands B.V.  Olam Food Ingredient 
+Shanghai Limited  Intellectual Property (AtSource) (China)  
+Olam Brands B.V.  Olam Services B.V.  Innovation IP  (Europe in relation to cocoa)  
+The transfer pricing policies with respect to R&D and intangibles are set in accordance with the arm’s length principle .  
+ Important transfers of intangibles  
+During  FYE 31 December 2025 , there were no trans fers of intangibles within  ofi Group.  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Intercompany Financial Activities  
+ 
+ 
+ 
+23 5. Intercompany Financial 
+Activities  
+ Group financing overview  
+OIL, Olam Treasury Pte Ltd (“OTPL”)  and Olam Holdings B.V. (“OHBV”)  provide intercompany loans to ofi Group’s entities by borrowing 
+via external financial institutions. OIL funds ofi Group’s entities  to enable the procurement of both derivative and non -derivative 
+commodities as well as for capital expenditure. ofi Group ’s entities may borrow from local banks directly or obtain funds from OIL , OTPL , 
+or OHBV  depending on optimal costs of funds, exchange rate impact, business model and overall strategy for opt imal resource 
+employment.   
+ External financing arrangements   
+The table  below  provides  the list of the top 5 most  important  financing  arrangements  with  unrelated  lenders  during FY 2025 .  
+Exhibit 9:  List of financing arrangements37 
+Borrower  Currency  Amount  Nature of financing  Banks / Lenders38 Date of agreement  
+OTPL  USD  2.1 Billion  Long  Term  HSBC  13-Aug-25 
+OHBV  USD  1.975 Billion39 Long Term/Short 
+Term HSBC  29-Aug-22 
+OTPL  USD  1.9 Billion  Long Term  HSBC  26-Jun-24 
+OTPL  USD  1.75 Billion  Long  Term  HSBC  29-Aug-23 
+OTPL  USD/CNH  USD 1.02 Billion + 
+CNH 875 Million40 Long Term/Short 
+Term  HSBC  03-Jul-24 
+5.2.1.  Bank overdrafts , bank loans  and term loans from banks41  
+Across the ofi Group, bank loans , bank overdrafts  and term loans from banks  are repayable between one to five years  and bear interest 
+rates ranging from 0.06% to 24.03 % per annum ("p.a.”) [ 0.06 % to 30.31 % p.a. for FY 2024 ]. Bank loans provided to ofi Group are generally 
+unsecured, except for an amount of USD 0.1 million [USD 0.3 million in FY 2024 ] which is secured against  the assets of ofi Group entities.   
+ 
+37 Information provided by ofi Group management  
+38 The bank loans listed in the table contain syndicated loans, with the corresponding banks acting as the agent for each of the  respective syndicated loans.  
+39 The fin ancing arrangement h as matured and w as rep aid before 31 December 2025  
+40 The fin ancing arrangement h as matured and w as rep aid before 31 December 2025  
+41 Source: Annual Financial Statements for FY 2025  of Olam International Limited and its subsidiary companies (page  52) 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Intercompany Financial Activities  
+ 
+ 
+ 
+24 5.2.2.  Medium -term notes42 
+In addition, the ofi Group has a medium -term note (“MTN”) programme  through which they have current and non -current liabilities 
+amounting to USD 659.1 million and USD 514.1  million respectively  as at FY 2025 . Drawdowns from MTN programmes are unsecured.  
+ Central financing functions  
+OTPL serves as a centralised treasury function, responsible for the majority of the financing activities of the ofi Group.  
+ Intercompany financing – transfer pricing policy  
+The transfer pricing policies with respect to intercompany financing are set in accordance with the arm’s length principle.  
+ 
+42 Source: Annual Financial Statements for FY 2025  of Olam International Limited and its subsidiary companies (page 53) 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Important Service Agreements  
+ 
+ 
+ 
+25 6. Important Service 
+Agreements  
+This section lists the important service arrangements that are currently enforceable (other than research and development (“R &D”) 
+services) and also provides a brief description of these service arrangements between the ofi Group entities. This includes a  description 
+of the capabilities of the principal locations providing important services and transfer pricing policies for allocating serv ice costs and 
+determining prices to be paid for intragroup services.  
+An overview of the  key intercompany service arrangements (other than those described in section 4.4) is set out in the table below:  
+Exhibit 10:  Service arrangements43 
+Service provider  Service recipient  Tax Jurisdiction  Transfer pricing policy  Service arrangement  
+Olam Insurance Limited  OIL  Singapore  Third party valuation  Insurance  
+OIL  ofi Group entities  Various  Cost plus  Management and 
+general Support  
+ofi Group entities (such 
+as Olam Services B.V.,  
+Olam Deutschland 
+GmbH,  Olam Europe 
+B.V., etc.)  OIL  Singapore  Cost plus  Sales support services  
+ 
+43 This section provides information about the ofi Group’s important service agreements only. Please refer to the OGL Master Fil e for information on the important Olam 
+Group service agreements.  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Financial and tax position  
+ 
+ 
+ 
+26 7. Financial and tax position  
+ Financial results  
+The following  table  presents  ofi Group’s  consolidated  financial  results  for FY 2025 .  
+Exhibit 11:  Financial results of ofi Group44 
+ FY 2025  
+(in millions  USD) 
+Sale of goods and services  21,828.3  
+Other income  55.2  
+Operating expenses - direct  (19,722.3)  
+Net gain from changes in fair value of biological assets  95.5  
+Depreciation and amortisation  (332.4)  
+Other expenses  (1,111. 4) 
+Finance income  31.4  
+Finance costs  (768.3)  
+Share of results from joint ventures and associates  4.3 
+Profit  before taxation  80.3  
+Income tax expense  (20.6)  
+Profit for the financial year  59.7  
+ Advance Pricing Arrangements (“APAs”) and other tax rulings   
+This sub -section lists and offers a brief description of the ofi Group’s existing Unilateral Advance Pricing Agreements (“APAs”), and other 
+advance Tax Rulings relating to the allocation of income among countries enforceable  in FY 2025 . A list of all executed  APAs  and tax 
+rulings  related  to the ofi Group  is provided  in the table below.  
+ 
+44 Source: Annual Financial Statements for FY 2025  of Olam International Limited and its subsidiary companies (page 7)  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Financial and tax position  
+ 
+ 
+ 
+27 Exhibit 12:  List of APAs and Tax Rulings  
+List of unilateral 
+APAs/tax rulings  Countries  Entities involved  Nature of 
+agreement/ruling  Agreement term  TP policy  
+Unilateral APA  Switzerland  Olam Suisse Sarl  Sales consultancy, 
+trading support and 
+general support 
+services  16 October 2015 
+onwards  Commission / Cost 
+plus 
+Unilateral APA  India  Olam Food 
+Ingredients India 
+Private Limited  Merchanting Trade 
+business  Financial year  2021-
+2022 to 202 5-2026 Transactional Net 
+Margin Method  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | Scope  
+ 
+ 
+ 
+28 8. Scope  
+ Scope of the report  
+The purpose of this report is to document the overview of ofi Group’s global business for FY 2025 . 
+ Work performed  
+During the course of this analysis , we have performed the following:   
+• Liaised with OIL to obtain background, financial and other information in relation to ofi Group ’s businesses;  
+• Reviewed relevant information obtained from OIL; and 
+• Confirmed our understanding of ofi Group ’s functions and risks with OIL. 
+ Limitations of the report  
+This report has been prepared solely for use by OIL should not be relied upon by any other person for any other purpose. In particular, 
+this report has been prepared from a n OECD TP  perspective only, in accordance with the OECD TP Guidelines in existence at the time of 
+preparation.  
+During the course of this report , we have referred to a variety of financial and non -financial information. Various published databases of 
+public and private companies have been relied on for the profiles and financial data of the selected comparable companies. Ou r 
+procedures did not inc lude an independent verification of the financial data contained on the databases and, consequently, we do not 
+express any opinion on any financial or other information referred to in this report . 
+In particular, the analysis and report are subject to the following:  
+• The information, documents and facts provided by OIL; 
+• Our assumption that the information provided is complete and correct;  
+• OIL’s understanding that a misstatement, omission or change in any of the information we have relied on may render our 
+conclusion in the report invalid or necessitate (upon OIL’s request) a reconsideration of the report;  
+• The legislation, regulations, cases, rulings and other tax authorities in effect at the date of the report. Any material chan ges to 
+those tax authorities (for which we shall have no responsibility to advise OIL) may render our conclusion in the report invalid or 
+necessitate (upon OIL’s request) a reconsideration of the report;  
+• OIL’s understanding that the conclusions in our report are not binding on the tax authorities or the courts and should not be 
+considered a representation that the tax authorities or the courts will concur with our conclusions;  
+• OIL’s understanding that our scope of service excludes our appearance before the tax authorities, in court or in an arbitration 
+proceeding, testifying as an expert witness or other involvement in legal proceedings; and  
+• OIL’s understanding that our responsibility for the report and our conclusions are limited to the transactions under review and 
+that our work may not be relied upon, disclosed to, or copied by anyone without our prior written consent. No responsibility 
+will b e accepted for loss occasioned to any other person acting on or refraining from action because of our work.  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group – Legal and ownership structure  
+ 
+ 
+ 
+29 Appendix A.  ofi Group – Legal 
+and ownership structure45 
+ 
+Entity Name  Country  % held by the Group  
+EURL Agri Commodities  Algeria  100 
+Olam Almonds Australia Pty Ltd  Australia  100 
+Olam Food Ingredients Australia Proprietary Limited  Australia  100 
+Olam Orchards Australia Pty Ltd  Australia  100 
+Olam Agricola Ltda  Brazil  100 
+Olam Armazens Gerais Ltda  Brazil  100 
+Olam Burkina Sarl  Burkina Faso  100 
+Ikawa Nziza Sprl  Burundi  100 
+Olam Outspan (Cambodia) Co., Ltd.  Cambodia  100 
+Olam Food Ingredients Cameroon S.A.  Cameroon  100 
+Club Coffee Company Inc.  Canada  100 
+Club Coffee L.P.  Canada  100 
+Northern Lights Research Inc.  Canada  100 
+Olam Canada Inc.  Canada  100 
+OFI Squirrel (Wuhu) Co Ltd  China  80 
+Olam Food Ingredients Shanghai Limited  China  100 
+Shandong Key Foods Co. Ltd  China  100 
+Ofi (Wuhu) Co.,Ltd  China  100 
+Olam Agro Colombia SAS  Colombia  100 
+ 
+45 List of subsidiaries as at 31.12. 2025  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group – Legal and ownership structure  
+ 
+ 
+ 
+30 Entity Name  Country  % held by the Group  
+Virunga Coffee SARL  The Democratic Republic Of the 
+Congo  100 
+Olam Ecuador SA  Ecuador  100 
+Agri Commodities L.L.C.  Egypt  99.995  
+Dehydro Foods S.A.E.  Egypt  100 
+Olam Georgia LLC  Georgia  100 
+Marsch Importhandels GmbH  Germany  100 
+Marsch International GmbH  Germany  100 
+Olam Cocoa Deutschland GmbH  Germany  100 
+Olam Deutschland GmbH  Germany  100 
+Olam Cocoa Processing Ghana Limited  Ghana  100 
+Olam Food Ingredients Ghana Ltd  Ghana  100 
+Olam Agro Guatemala SA  Guatemala  100 
+Olam Honduras S.A. de C.V  Honduras  100 
+Olam Enterprises India Private Limited  India  100 
+Olam Food Ingredients India Private Limited (f.k.a Olam 
+Agro India Private Limited)  India  100 
+Olam Innovation Centre India Private Limited  India  100 
+PT Bumitangerang Mesindotama  Indonesia  100 
+PT Dipankara Dhanya Indonesia  Indonesia  100 
+PT Olam Cocoa Indonesia  Indonesia  100 
+PT Olam Indonesia  Indonesia  100 
+Olam Insurance Limited  Isle of Man  100 
+Olam Italia S.R.L  Italy  100 
+Blenda SRL  Italy  70 
+Olam Cocoa Processing Cote d Ivoire  Ivory Coast  100 
+Olam Ivoire Sarl  Ivory Coast  100 
+Outspan Ivoire  Ivory Coast  100 
+Outspan Bolovens Limited  Lao People's Democratic Republic  100 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group – Legal and ownership structure  
+ 
+ 
+ 
+31 Entity Name  Country  % held by the Group  
+Olam Cocoa (Sabah) Sdn. Bhd.  Malaysia  100 
+Outspan Malaysia Sdn. Bhd.  Malaysia  100 
+OFI MALAYSIA SDN. BHD  Malaysia  100 
+Olam Investments Limited  Mauritius  100 
+Olam Agro Mexico S.A. de C.V.  Mexico  100 
+Olam Brands B.V.  Netherlands  100 
+Olam Cocoa B.V.  Netherlands  100 
+Olam Cocoa International B.V.  Netherlands  100 
+Olam Europe B.V  Netherlands  100 
+Olam Holding BV  Netherlands  100 
+Olam Services B.V  Netherlands  100 
+ofi Holdings BV  Netherlands  100 
+ofi Brands BV  Netherlands  100 
+ofi AtSource BV  Netherlands  100 
+Olam Treasury B.V.  Netherlands  100 
+Olam Food Ingredients New Zealand Limited  New Zealand  100 
+Olam Nicaragua S.A.  Nicaragua  100 
+Outspan Nigeria Ltd  Nigeria  100 
+Outspan PNG Limited  Papua New Guinea  100 
+Olam Agro Peru SAC  Peru  100 
+Olam Food Ingredients Philippines Inc  Philippines  100 
+Olam Polska Sp. Z.o.o.  Poland  100 
+Agrohub Commodities Pte Ltd  Singapore  100 
+Olam Cocoa Pte Ltd  Singapore  100 
+Olam Food Ingredients Vietnam Pte. Ltd.  Singapore  100 
+Olam International Limited  Singapore  100 
+Olam Treasury Pte Ltd  Singapore  100 
+YTS Holdings Pte Ltd  Singapore  100 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group – Legal and ownership structure  
+ 
+ 
+ 
+32 Entity Name  Country  % held by the Group  
+Olam Food Ingredients Spain S.L.  Spain  100 
+Seda Outspan Iberia S.L (Sociedad Unipersonal)  Spain  100 
+Olam Suisse Sarl  Switzerland  100 
+Schluter SA  Switzerland  100 
+Aviv Tanzania Limited  Tanzania  100 
+Outspan Agro Timor Unipessoal LDA  Timor -Leste  100 
+ofi Tarim Sanayi ve Ticaret A.Ş (f.k.a. Progıda Tarım 
+Űrűnleri Sanayi ve Ticaret A.Ş.)  Turkey  100 
+Olam Tarim Urunleri Yem Maddeleri Sanayi ve Ticaret 
+Limited Sirketi  Turkey  100 
+Olam (Uganda) Limited  Uganda  100 
+Olam Food Ingredients Ukraine LLC  Ukraine  100 
+Olam Food Ingredients DMCC  United Arab Emirates  100 
+Olam Middle East (L.L.C.)  United Arab Emirates  100 
+Covoya Ltd (f.k.a.Olam Specialty Coffee Europe)  United Kingdom  100 
+Marsch Import Ltd  United Kingdom  100 
+OFI Group Limited  United Kingdom  100 
+Olam Europe Limited  United Kingdom  100 
+Olam Food Ingredients UK Limited  United Kingdom  100 
+Olam International UK Limited  United Kingdom  100 
+Olam Storage & Distribution Limited  United Kingdom  100 
+OFI Group Nominees Limited  United Kingdom  100 
+Gel Spice Co, Inc  United States  100 
+Gel Spice Co, LLC  United States  100 
+Hughson Nut, Inc  United States  100 
+Olam Americas, LLC.  United States  100 
+Olam Chile Peppers, LLC  United States  100 
+Olam Farming, Inc.  United States  100 
+Olam Holdings Inc.  United States  100 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | ofi Group – Legal and ownership structure  
+ 
+ 
+ 
+33 Entity Name  Country  % held by the Group  
+Olam OT Holdings, LLC  United States  100 
+Olam Peanut Shelling Company Inc  United States  100 
+Olam US Holdings, Inc.  United States  100 
+Olam West Coast Inc.  United States  100 
+Olde Thompson, LLC  United States  100 
+OT Acquisition Co. LLC  United States  100 
+OT Borrower LLC  United States  100 
+OT Guarantor LLC  United States  100 
+OT Holdings Corp.  United States  100 
+OT Intermediate LLC  United States  100 
+Seabrook Enterprises Inc.  United States  100 
+Universal Blanchers, L.L.C.  United States  100 
+Cafe Outspan Vietnam Limited  Vietnam  100 
+Olam Vietnam Food Processing Company Limited  Vietnam  100 
+Olam Vietnam Limited  Vietnam  100 
+Truong Thinh Investment and Construction Joint Stock 
+Company  Vietnam  100 
+Northern Coffee Corporation Limited  Zambia  100 
+Olam Zambia Limited  Zambia  100 
+ 
+ 
+ 
+ 
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | List of key ofi Group entities  
+ 
+ 
+ 
+34 Appendix B.  List of key ofi 
+Group entities46 
+ 
+Operating entity  Geographical location  Principal activities47 Effective percentage of 
+equity held by the Group in 
+FY 2025 (%) 
+Olam International Limited  Singapore  (a), (b)  100 
+Olam Treasury Pte. Ltd  Singapore  (d) 100 
+Olam Cocoa Pte. Ltd  Singapore  (a), (b) 100 
+Olam Cocoa Processing Ghana Limited  Ghana  (a) 100 
+Olam Food Ingredients Ghana Ltd  Ghana  (a) 100 
+Olam Ivoire SA  Ivory Coast  (a) 100 
+Outspan Ivoire SA  Ivory Coast  (a) 100 
+Olam Cocoa Processing Cote d’ Ivoire  Ivory Coast  (a) 100 
+Outspan Nigeria Limited  Nigeria  (a) 100 
+Olam Vietnam Limited  Vietnam  (a) 100 
+Café Outspan Vietnam Limited  Vietnam  (a) 100 
+PT Olam Indonesia  Indonesia  (a) 100 
+Olam Food Ingredients India Private Limited 
+(f.k.a Olam Agro  India Private Limited)  India  (a) 100 
+Olam Agricola Ltda.  Brazil  (a) 100 
+Olam Holdings Inc  United States  (b), (d)  100 
+Olam Orchards Australia Pty Ltd  Australia  (a), (c) 100 
+Olam Food Ingredients New Zealand Limited  New Zealand  (a) 100 
+Seda Outspan Iberia S.L.  Spain  (a) 100 
+ 
+46 Source: Olam Group Limited Annual Report 2025  (pages 217)   
+47 (a) Sourcing, processing, packaging and merchandising of agricultural products and inputs (b) Investment holding (c) Agricult ural operations (d) Treasury activities  
+Olam Food Ingredients Group  | Master File for the financial year ended 31 December 2025  | List of key ofi Group entities  
+ 
+ 
+ 
+35 Operating entity  Geographical location  Principal activities47 Effective percentage of 
+equity held by the Group in 
+FY 2025 (%) 
+ofi Tarim Sanayi ve Ticaret A.Ş (f.k.a. Progıda 
+Tarım Űrűnleri Sanayi ve Ticaret A.Ş.)  Turkey  (a) 100 
+Olam Holdings B.V.  Netherlands  (b) 100 
+Olam Cocoa B.V.  Netherlands  (a) 100 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Deloitte refers to one or more of Deloitte Touche Tohmatsu Limited (“DTTL”), its global network of member firms, and their re lated entities (collectively, the “Deloitte 
+organisation”). DTTL (also referred to as “Deloitte Global”) and each of its member fir ms and related entities are legally separate and independent entities, which cannot 
+obligate or bind each other in respect of third parties. DTTL and each DTTL member firm and related entity is liable only for  its own acts and omissions, and not those of 
+each other. DTTL does not provide services to clients. Please see www.deloitte.com/about to learn more.  
+ 
+Deloitte Asia Pacific Limited is a company limited by guarantee and a member firm of DTTL. Members of Deloitte Asia Pacific L imited and their related entities, each of 
+which are separate and independent legal entities, provide services from more than 100 c ities across the region, including Auckland, Bangkok, Beijing, Hanoi, Hong Kong, 
+Jakarta, Kuala Lumpur, Manila, Melbourne, Osaka, Seoul, Shanghai, Singapore, Sydney, Taipei and Tokyo.  
+ 
+About Deloitte Singapore  
+In Singapore, tax services are provided by Deloitte Singapore Tax Services  Pte. Ltd. and other services (where applicable) may be carried out by its subsidiaries and/or 
+affiliates . 
+ 
+Deloitte Singapore Tax Services  Pte. Ltd.  (Unique entity number: 202008330C ) is a company incorporated in Singapore under the Companies Act . 
+ 
+Disclaimer  
+This communication contains general information only, and none of Deloitte Touche Tohmatsu Limited (“DTTL”), its global netwo rk of member firms or their related 
+entities (collectively, the “Deloitte organisation”) is, by means of this communication, render ing professional advice or services. Before making any decision or taking any 
+action that may affect your finances or your business, you should consult a qualified professional adviser. No representation s, warranties or undertakings (express or 
+implied) ar e given as to the accuracy or completeness of the information in this communication, and none of DTTL, its member firms, rela ted entities, employees or agents 
+shall be liable or responsible for any loss or damage whatsoever arising directly or indirectly i n connection with any person relying on this communication. DTTL and each 
+of its member firms, and their related entities, are legally separate and independent entities.  
+ 
+© 202 6 Deloitte Singapore Tax Services  Pte. Ltd.   
+

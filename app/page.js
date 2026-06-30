@@ -1,15 +1,21 @@
-import React, { useState } from 'react';
-import Sidebar from './Sidebar';
-import DocumentView from './DocumentView';
-import ComparisonView from './ComparisonView';
-import UploadView from './UploadView';
+"use client";
+
+import React, { useState, useEffect } from 'react';
+import Sidebar from '../components/Sidebar';
+import DocumentView from '../components/DocumentView';
+import ComparisonView from '../components/ComparisonView';
+import UploadView from '../components/UploadView';
 import { Menu } from 'lucide-react';
 
-function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth >= 1024);
+export default function Home() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [activeDocId, setActiveDocId] = useState('AcmeCorp_2023');
   const [activeVersionId, setActiveVersionId] = useState('V1');
   const [viewMode, setViewMode] = useState('upload'); // default to 'upload' for new users
+
+  useEffect(() => {
+    setIsSidebarOpen(window.innerWidth >= 1024);
+  }, []);
 
   return (
     <div className="flex h-screen bg-white font-sans overflow-hidden">
@@ -63,5 +69,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
