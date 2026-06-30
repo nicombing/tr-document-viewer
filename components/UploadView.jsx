@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Upload, FileText, CheckCircle2 } from 'lucide-react';
+import { addDocumentToLibrary } from './data';
 
-const UploadView = ({ isSidebarOpen }) => {
+const UploadView = ({ isSidebarOpen, setActiveDocId, setViewMode }) => {
   const [dragActive, setDragActive] = useState(false);
   const [selectedFile, setSelectedFile] = useState(null);
+  const [isUploading, setIsUploading] = useState(false);
 
   const handleDrag = function(e) {
     e.preventDefault();
@@ -31,8 +33,6 @@ const UploadView = ({ isSidebarOpen }) => {
     }
   };
 
-  const [isUploading, setIsUploading] = useState(false);
-
   const handleUpload = async () => {
     if (!selectedFile) return;
     setIsUploading(true);
@@ -48,10 +48,13 @@ const UploadView = ({ isSidebarOpen }) => {
 
       const data = await response.json();
       
-      if (response.ok) {
-        alert(data.message + "\nFile Name: " + data.fileName + "\nSize: " + data.fileSize + " bytes\n\nNext Step: AI Parsing integration!");
+      if (response.ok && data.documentData) {
+        const newDocId = `doc_${Date.now()}`;
+        addDocumentToLibrary(newDocId, data.documentData);
+        setActiveDocId(newDocId);
+        setViewMode('comparison');
       } else {
-        alert("Upload failed: " + data.error);
+        alert("Upload failed: " + (data.error || "Unknown error"));
       }
     } catch (error) {
       console.error("Error uploading file:", error);

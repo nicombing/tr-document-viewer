@@ -12,16 +12,87 @@ export async function POST(request) {
       );
     }
 
-    // Phase 3 & 4: Here we would parse the file buffer and send to AI
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
-    // Mock response for now to indicate the endpoint is working
+    // Call Gemini API
+    const { GoogleGenAI } = await import('@google/genai');
+    
+    // Default to the provided API key from env
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey) {
+      return NextResponse.json({ error: 'Gemini API Key is missing in backend.' }, { status: 500 });
+    }
+
+    const ai = new GoogleGenAI({ apiKey });
+    
+    // We pass the document as inlineData to Gemini
+    // For PDFs, mimeType is 'application/pdf'
+    // For Word, we might need a different approach or Gemini might support it, but assuming PDF for now.
+    const mimeType = file.type || 'application/pdf';
+
+    const prompt = `You are a professional document translator and parser. 
+Your job is to read this document (which might contain text, images, and tables) and extract its structure.
+Translate the text to English if it is not already.
+
+Please output the result STRICTLY as a raw JSON object (without any markdown formatting like \`\`\`json) matching this exact format:
+{
+  "name": "Translated Document",
+  "versions": {
+    "V1": [
+      {
+        "type": "heading",
+        "level": 1,
+        "content": "Heading text here"
+      },
+      {
+        "type": "paragraph",
+        "content": "Paragraph text here"
+      }
+    ]
+  }
+}
+
+Use "heading" (with a level), "paragraph", "table", or "image" as the types.`;
+
+    console.log("Sending file to Gemini...");
+    
+    // Generate content using gemini-1.5-pro for best multimodal support
+    const response = await ai.models.generateContent({
+        model: 'gemini-1.5-pro',
+        contents: [
+            prompt,
+            {
+                inlineData: {
+                    data: buffer.toString("base64"),
+                    mimeType: mimeType
+                }
+            }
+        ]
+    });
+
+    const textResult = response.text;
+    console.log("Gemini response received");
+    
+    // Try to parse the JSON returned by Gemini
+    let parsedJson;
+    try {
+        // Strip markdown blocks if Gemini accidentally included them
+        const cleanedText = textResult.replace(/^```json\s*/, '').replace(/```\s*$/, '').trim();
+        parsedJson = JSON.parse(cleanedText);
+    } catch (e) {
+        console.error("Failed to parse Gemini JSON output:", textResult);
+        return NextResponse.json({ 
+            error: 'AI generated invalid JSON structure.', 
+            rawOutput: textResult 
+        }, { status: 500 });
+    }
+
     return NextResponse.json({ 
       success: true, 
-      message: 'File successfully received by the backend!',
+      message: 'Document parsed and translated by Gemini!',
       fileName: file.name,
-      fileSize: buffer.length
+      documentData: parsedJson
     });
 
   } catch (error) {

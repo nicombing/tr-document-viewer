@@ -56,7 +56,11 @@ export default function Home() {
       />
       
       {viewMode === 'upload' ? (
-        <UploadView isSidebarOpen={isSidebarOpen} />
+        <UploadView 
+          isSidebarOpen={isSidebarOpen} 
+          setActiveDocId={setActiveDocId}
+          setViewMode={setViewMode}
+        />
       ) : viewMode === 'comparison' ? (
         <ComparisonView isSidebarOpen={isSidebarOpen} />
       ) : (

@@ -62,3 +62,7 @@ export const documentLibrary = {
     }
   }
 };
+
+export const addDocumentToLibrary = (key, data) => {
+  documentLibrary[key] = data;
+};
