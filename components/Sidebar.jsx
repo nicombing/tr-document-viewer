@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { documentLibrary } from './data';
-import { X, ChevronDown, ChevronRight, FileText, Folder } from 'lucide-react';
+import { X, ChevronDown, ChevronRight, FileText, Folder, SplitSquareHorizontal } from 'lucide-react';
 
 const Sidebar = ({ isOpen, setIsOpen, activeDocId, setActiveDocId, activeVersionId, setActiveVersionId, viewMode, setViewMode }) => {
   // Track which document folders are expanded
@@ -68,17 +68,8 @@ const Sidebar = ({ isOpen, setIsOpen, activeDocId, setActiveDocId, activeVersion
                 viewMode === 'comparison' ? 'bg-blue-100 text-blue-700' : 'text-gray-800 hover:bg-gray-200'
               }`}
             >
-              <FileText size={16} className={`mr-2 ${viewMode === 'comparison' ? 'text-blue-600' : 'text-blue-500'}`} />
+              <SplitSquareHorizontal size={16} className={`mr-2 ${viewMode === 'comparison' ? 'text-blue-600' : 'text-blue-500'}`} />
               Comparison Analysis
-            </button>
-            <button
-              onClick={() => { setViewMode('upload'); if(window.innerWidth < 1024) setIsOpen(false); }}
-              className={`w-full flex items-center text-left font-sans text-sm font-semibold px-2 py-2 rounded-md transition-colors ${
-                viewMode === 'upload' ? 'bg-blue-100 text-blue-700' : 'text-gray-800 hover:bg-gray-200'
-              }`}
-            >
-              <FileText size={16} className={`mr-2 ${viewMode === 'upload' ? 'text-blue-600' : 'text-blue-500'}`} />
-              Upload Document
             </button>
           </div>
 
