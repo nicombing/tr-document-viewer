@@ -9,7 +9,7 @@ const CommentThread = ({ docId, versionId, paragraphId }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   useEffect(() => {
-    if (!isExpanded) return;
+    // Listen for comments unconditionally so we can show accurate count on the button
 
     // Listen for comments specifically for this paragraph
     const q = query(
@@ -37,7 +37,7 @@ const CommentThread = ({ docId, versionId, paragraphId }) => {
     });
 
     return () => unsubscribe();
-  }, [docId, versionId, paragraphId, isExpanded]);
+  }, [docId, versionId, paragraphId]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
