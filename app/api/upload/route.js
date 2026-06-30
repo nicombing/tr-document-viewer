@@ -68,9 +68,9 @@ Important Rules:
 
     console.log("Sending file to Gemini...");
     
-    // Generate content using gemini-3.1-pro-preview for best multimodal support
+    // Generate content using gemini-2.5-flash (high free tier limits, great multimodal support)
     const response = await ai.models.generateContent({
-        model: 'gemini-3.1-pro-preview',
+        model: 'gemini-2.5-flash',
         contents: [
             prompt,
             {
