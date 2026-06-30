@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../lib/firebase';
-import { collection, query, where, onSnapshot, addDoc, serverTimestamp } from 'firebase/firestore';
-import { MessageSquare, Send } from 'lucide-react';
+import { collection, query, where, onSnapshot, addDoc, serverTimestamp, deleteDoc, doc } from 'firebase/firestore';
+import { MessageSquare, Send, Trash2 } from 'lucide-react';
 
 const CommentThread = ({ docId, versionId, paragraphId }) => {
   const [comments, setComments] = useState([]);
@@ -64,6 +64,14 @@ const CommentThread = ({ docId, versionId, paragraphId }) => {
     }
   };
 
+  const handleDelete = async (commentId) => {
+    try {
+      await deleteDoc(doc(db, 'comments', commentId));
+    } catch (error) {
+      console.error('Error deleting comment: ', error);
+    }
+  };
+
   return (
     <div className="mt-2 mb-4">
       <button 
@@ -81,11 +89,18 @@ const CommentThread = ({ docId, versionId, paragraphId }) => {
               <p className="text-xs text-gray-400 italic">No comments yet. Start the discussion!</p>
             ) : (
               comments.map(comment => (
-                <div key={comment.id} className="bg-white p-2 rounded border border-gray-100 shadow-sm">
-                  <div className="flex justify-between items-center mb-1">
+                <div key={comment.id} className="relative group bg-white p-2 rounded border border-gray-100 shadow-sm">
+                  <div className="flex justify-between items-center mb-1 pr-8">
                     <span className="text-xs font-semibold text-gray-700">{comment.author}</span>
                   </div>
-                  <p className="text-sm text-gray-600">{comment.text}</p>
+                  <p className="text-sm text-gray-600 pr-8 break-words">{comment.text}</p>
+                  <button
+                    onClick={() => handleDelete(comment.id)}
+                    className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white border border-red-200 text-red-500 hover:text-red-700 rounded-md p-1.5 shadow-sm focus:outline-none z-10"
+                    title="Erase comment"
+                  >
+                    <Trash2 size={14} />
+                  </button>
                 </div>
               ))
             )}
