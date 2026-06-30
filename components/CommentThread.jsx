@@ -25,10 +25,11 @@ const CommentThread = ({ docId, versionId, paragraphId }) => {
         ...doc.data()
       }));
       
-      // Sort comments client-side to avoid requiring a composite index in Firestore
+      // Sort comments client-side to avoid requiring a composite index in Firestore.
+      // Use Date.now() fallback for optimistic local updates where serverTimestamp is not yet populated.
       fetchedComments.sort((a, b) => {
-        const timeA = a.createdAt?.toMillis() || 0;
-        const timeB = b.createdAt?.toMillis() || 0;
+        const timeA = a.createdAt?.toMillis() || Date.now();
+        const timeB = b.createdAt?.toMillis() || Date.now();
         return timeA - timeB;
       });
       
@@ -40,21 +41,26 @@ const CommentThread = ({ docId, versionId, paragraphId }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!newComment.trim()) return;
+    const textToSubmit = newComment.trim();
+    if (!textToSubmit) return;
+
+    // Clear UI immediately for instant responsive feedback
+    setNewComment('');
 
     try {
       await addDoc(collection(db, 'comments'), {
         docId,
         versionId,
         paragraphId,
-        text: newComment,
+        text: textToSubmit,
         createdAt: serverTimestamp(),
         // For a real app, this would be the logged-in user's name/avatar
         author: 'Anonymous Reviewer', 
       });
-      setNewComment('');
     } catch (error) {
       console.error('Error adding comment: ', error);
+      // Revert if failed
+      setNewComment(textToSubmit);
     }
   };
 
