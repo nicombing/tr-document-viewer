@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { documentLibrary } from './data';
 import { CheckCircle2, ArrowRightLeft } from 'lucide-react';
 import { diffWords } from 'diff';
+import CommentThread from './CommentThread';
 
 const ComparisonView = ({ isSidebarOpen }) => {
   const docKeys = Object.keys(documentLibrary);
@@ -183,6 +184,14 @@ const ComparisonView = ({ isSidebarOpen }) => {
                         {renderTextWithDiff(block.id, section.id, index, isBase, 'id')}
                       </div>
                     </div>
+                  )}
+                  
+                  {!isBase && block.id && (
+                    <CommentThread 
+                      docId={targetDocId}
+                      versionId={version}
+                      paragraphId={`${section.id}-block-${index}`}
+                    />
                   )}
                 </div>
               );
